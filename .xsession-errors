@@ -111,3 +111,5 @@ Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a ti
 /usr/lib/linuxmint/mintUpdate/mintUpdate.py:817: DeprecationWarning: Gdk.threads_leave is deprecated
   Gdk.threads_leave()
 Gjs-Message: 00:14:18.686: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.86/org/x/StatusIcon/Icon)
+Gjs-Message: 00:14:38.306: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.90/org/x/StatusIcon/Icon)
+Gjs-Message: 00:14:38.309: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.90/org/x/StatusIcon/Icon_1)
