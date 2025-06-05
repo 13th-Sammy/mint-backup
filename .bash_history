@@ -1561,3 +1561,8 @@ nano .bashrc
 gg
 reboot'
 reboot
+sudo apt update && sudo apt upgrade
+sudo apt autoremove
+git status
+gg
+reboot
