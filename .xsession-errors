@@ -1,0 +1,141 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/sammy/.Xauthority
+/etc/X11/Xsession.d/30x11-common_xresources: line 16: has_option: command not found
+/etc/X11/Xsession.d/75dbus_dbus-launch: line 9: has_option: command not found
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+/etc/X11/Xsession.d/90x11-common_ssh-agent: line 9: has_option: command not found
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg
+dbus-update-activation-environment: setting LANGUAGE=en_IN:en
+dbus-update-activation-environment: setting LC_ADDRESS=en_IN
+dbus-update-activation-environment: setting LC_NAME=en_IN
+dbus-update-activation-environment: setting DESKTOP_SESSION=cinnamon
+dbus-update-activation-environment: setting LC_MONETARY=en_IN
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/sammy
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=cinnamon
+dbus-update-activation-environment: setting LOGNAME=sammy
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/sammy/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/sammy
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting HOME=/home/sammy
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=en_IN
+dbus-update-activation-environment: setting LC_PAPER=en_IN
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting LC_IDENTIFICATION=en_IN
+dbus-update-activation-environment: setting USER=sammy
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting LC_TELEPHONE=en_IN
+dbus-update-activation-environment: setting LC_MEASUREMENT=en_IN
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting LC_TIME=en_IN
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/sammy/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=cinnamon
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LC_NUMERIC=en_IN
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+discover_other_daemon: 1discover_other_daemon: 1discover_other_daemon: 1[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+dbus-daemon[1846]: Activating service name='org.a11y.atspi.Registry' requested by ':1.2' (uid=1000 pid=1845 comm="/usr/bin/csd-clipboard" label="unconfined")
+dbus-daemon[1846]: Successfully activated service 'org.a11y.atspi.Registry'
+[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+/usr/bin/cinnamon-launcher:56: DeprecationWarning: This process (pid=1973) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  self.cinnamon_pid = os.fork()
+Gjs-Message: 15:18:33.535: Profiler is disabled. Not setting up signals.
+Gjs-Message: 15:18:33.667: JS LOG: About to start Cinnamon (X11 backend)
+Gjs-Message: 15:18:33.726: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 0 ms
+Gjs-Message: 15:18:33.728: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark-Purple/cinnamon/cinnamon.css
+Gjs-Message: 15:18:33.738: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark-Purple/cinnamon
+Gjs-Message: 15:18:33.818: JS LOG: [LookingGlass/info] loaded at Thu Jun 05 2025 15:18:33 GMT+0530 (India Standard Time)
+Gjs-Message: 15:18:33.818: JS LOG: Cinnamon started at Thu Jun 05 2025 15:18:33 GMT+0530 (India Standard Time)
+Gjs-Message: 15:18:33.826: JS LOG: [LookingGlass/info] ExtensionSystem started in 0 ms
+Gjs-Message: 15:18:33.827: JS LOG: [LookingGlass/info] DeskletManager started in 1 ms
+Gjs-Message: 15:18:33.827: JS LOG: [LookingGlass/info] SearchProviderManager started in 1 ms
+Gjs-Message: 15:18:33.863: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 13 ms
+Gjs-Message: 15:18:33.865: JS LOG: [LookingGlass/info] Role locked: tray
+Gjs-Message: 15:18:33.867: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 4 ms
+Gjs-Message: 15:18:33.874: JS LOG: [LookingGlass/info] Role locked: notifications
+
+** (at-spi2-registryd:1921): WARNING **: 15:18:33.928: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+
+** (at-spi2-registryd:1921): WARNING **: 15:18:33.928: Unable to register client with session manager
+Gjs-Message: 15:18:33.938: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 70 ms
+Gjs-Message: 15:18:33.978: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 40 ms
+Gjs-Message: 15:18:33.998: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 19 ms
+Gjs-Message: 15:18:34.019: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 21 ms
+Gjs-Message: 15:18:34.034: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 15 ms
+Gjs-Message: 15:18:34.045: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 10 ms
+Gjs-Message: 15:18:34.071: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 26 ms
+Gjs-Message: 15:18:34.123: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 52 ms
+Gjs-Message: 15:18:34.134: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 11 ms
+Gjs-Message: 15:18:34.155: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Gjs-Message: 15:18:34.155: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
+Gjs-Message: 15:18:34.158: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 24 ms
+Gjs-Message: 15:18:34.218: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nm-applet (:1.54/org/x/StatusIcon/Icon)
+
+** (csd-power:1834): CRITICAL **: 15:18:34.233: abs_to_percentage: assertion 'max > min' failed
+Gjs-Message: 15:18:34.257: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 99 ms
+
+ERROR: NVIDIA driver is not loaded
+
+Gjs-Message: 15:18:34.281: JS LOG: [LookingGlass/info] Hiding XAppStatusIcon (we have an applet): nm-applet (:1.54/org/x/StatusIcon/Icon)
+Nemo-Message: 15:18:34.284: nemo-desktop: session is cinnamon, establishing proxy
+Gjs-Message: 15:18:34.287: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 29 ms
+blueman-applet 15.18.34 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 15.18.34 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+Gjs-Message: 15:18:34.364: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 77 ms
+Gjs-Message: 15:18:34.364: JS LOG: [LookingGlass/info] AppletManager started in 546 ms
+Gjs-Message: 15:18:34.367: JS LOG: [LookingGlass/info] Cinnamon took 699 ms to start
+Gjs-Message: 15:18:34.398: JS LOG: calendar@cinnamon.org: Calendar events supported.
+Gjs-Message: 15:18:34.410: JS LOG: Unknown network device type, is 32
+Gjs-Message: 15:18:34.522: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: blueman (:1.50/org/x/StatusIcon/Icon)
+Gjs-Message: 15:18:34.572: JS LOG: [LookingGlass/info] GPU offload supported: false
+Gjs-Message: 15:18:35.136: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nvidia-prime (:1.57/org/x/StatusIcon/Icon)
+Nemo-Share-Message: 15:18:35.517: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+Gjs-Message: 15:18:38.154: JS LOG: Enabling WindowAttentionHandler
+/usr/lib/linuxmint/mintUpdate/mintUpdate.py:1394: DeprecationWarning: Gdk.threads_init is deprecated
+  Gdk.threads_init()
+/usr/lib/linuxmint/mintUpdate/mintUpdate.py:1778: DeprecationWarning: Gdk.threads_enter is deprecated
+  Gdk.threads_enter()
+/usr/lib/linuxmint/mintUpdate/mintUpdate.py:817: DeprecationWarning: Gdk.threads_leave is deprecated
+  Gdk.threads_leave()
+Gjs-Message: 15:18:54.714: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.79/org/x/StatusIcon/Icon)
+Gjs-Message: 15:19:14.309: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.83/org/x/StatusIcon/Icon)
+Gjs-Message: 15:19:14.312: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.83/org/x/StatusIcon/Icon_1)
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4000007
+/usr/lib/python3/dist-packages/apt/cache.py:562: Warning: W:An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://repo.protonvpn.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Failed to fetch https://repo.protonvpn.com/debian/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Some index files failed to download. They have been ignored, or old ones used instead.
+  res = self._cache.update(fetch_progress, slist, pulse_interval)
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x40004a1
+Window manager warning: WM_TRANSIENT_FOR window 0x3402842 for override-redirect window 0x34059a0 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a2 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a8 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a2 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a2 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a2 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a8 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a2 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a8 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a8 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+/usr/lib/python3/dist-packages/apt/cache.py:562: Warning: W:An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://repo.protonvpn.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Failed to fetch https://repo.protonvpn.com/debian/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Some index files failed to download. They have been ignored, or old ones used instead.
+  res = self._cache.update(fetch_progress, slist, pulse_interval)
+Window manager warning: WM_TRANSIENT_FOR window 0x34002bd for override-redirect window 0x34032a8 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+
+** (csd-media-keys:1838): WARNING **: 18:26:10.589: Unable to get default sink
+
+** (csd-media-keys:1838): WARNING **: 18:26:10.589: Unable to get default source
+
+** (csd-media-keys:1838): WARNING **: 18:27:17.138: Unable to get default sink
+/usr/lib/python3/dist-packages/apt/cache.py:562: Warning: W:An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://repo.protonvpn.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Failed to fetch https://repo.protonvpn.com/debian/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Some index files failed to download. They have been ignored, or old ones used instead.
+  res = self._cache.update(fetch_progress, slist, pulse_interval)
+/usr/lib/python3/dist-packages/apt/cache.py:562: Warning: W:An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://repo.protonvpn.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Failed to fetch https://repo.protonvpn.com/debian/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Some index files failed to download. They have been ignored, or old ones used instead.
+  res = self._cache.update(fetch_progress, slist, pulse_interval)

@@ -1,0 +1,43 @@
+game:
+  exe: /home/sammy/Games/dark-souls-3/drive_c/Program Files (x86)/DODI-Repacks/Dark
+    Souls III/Game/DarkSoulsIII.exe
+  prefix: /home/sammy/Games/dark-souls-3
+game_slug: dark-souls-3
+name: dark souls 3
+requires: null
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env:
+        LC_ALL: ''
+      executable: /media/sammy/Vault/Dark Souls III - [DODI Repack]/Setup.exe
+      prefix: /home/sammy/Games/dark-souls-3
+      wine_path: /home/sammy/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine
+  system:
+    env:
+      LC_ALL: ''
+slug: dark-souls-3-setup
+system:
+  disable_runtime: true
+  env:
+    MANGOHUD_CONFIG: fps_limit=30,no_display=1
+  game_path: /home/sammy/Games/dark-souls-3
+  locale: ''
+  mangohud: true
+  prefix_command: ''
+  reset_desktop: true
+variables: {}
+version: Setup file
+wine:
+  battleye: false
+  dgvoodoo2: true
+  eac: false
+  system_winetricks: true
+  version: system
+year: null

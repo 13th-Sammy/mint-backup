@@ -1,0 +1,7 @@
+[user]
+	name = 13th-Sammy
+	email = singhpalu732@gmail.com
+[init]
+	defaultBranch = main
+[merge]
+	ff = only

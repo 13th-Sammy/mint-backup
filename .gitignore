@@ -1,0 +1,16 @@
+.cache/
+Desktop/
+Documents/
+Downloads/
+Games/
+.local/
+.mozilla/
+Music/
+Pictures/
+Public/
+Templates/
+Videos/
+VirtualBox VMs/
+.vscode/
+.config/Code/
+.ssh/id_ed25519

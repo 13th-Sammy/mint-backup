@@ -1,0 +1,41 @@
+game:
+  exe: /media/sammy/Vault/Games/dark-souls-remastered/drive_c/Games/Dark Souls Remastered/DarkSoulsRemastered.exe
+  prefix: /media/sammy/Vault/Games/dark-souls-remastered
+game_slug: dark-souls-remastered
+name: Dark Souls Remastered
+requires: null
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env:
+        LC_ALL: ''
+      executable: /media/sammy/Vault/Dark Souls Remastered ElAmigos/setup.exe
+      prefix: /media/sammy/Vault/Games/dark-souls-remastered
+      wine_path: /home/sammy/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine
+  system:
+    env:
+      LC_ALL: ''
+slug: dark-souls-remastered-setup
+system:
+  disable_runtime: true
+  env:
+    MANGOHUD_CONFIG: fps_limit=42,no_display=1
+  game_path: /media/sammy/Vault/Games/dark-souls-remastered
+  locale: ''
+  mangohud: true
+  reset_desktop: true
+variables: {}
+version: Setup file
+wine:
+  Desktop: false
+  dgvoodoo2: true
+  overrides: {}
+  system_winetricks: true
+  version: system
+year: null

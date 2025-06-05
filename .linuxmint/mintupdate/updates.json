@@ -1,0 +1,27 @@
+{
+  "updates": {
+    "firefox": {
+      "type": "security",
+      "since": "2025.06.04",
+      "days": 2
+    },
+    "thunderbird": {
+      "type": "security",
+      "since": "2025.06.04",
+      "days": 2
+    },
+    "libvpx": {
+      "type": "security",
+      "since": "2025.06.05",
+      "days": 1
+    },
+    "code": {
+      "type": "package",
+      "since": "2025.06.05",
+      "days": 1
+    }
+  },
+  "version": 1,
+  "checked": "2025.06.05",
+  "notified": "2024.10.27"
+}
