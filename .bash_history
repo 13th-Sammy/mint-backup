@@ -1482,3 +1482,34 @@ git add . && git commit -m y
 git status
 ncdu
 nano .gitignore 
+git status
+nano bashrc
+nano .bashrc
+exit
+nano .gitignore 
+rm -rf .git
+git init
+git add . && git commit -m y
+git remote add origin git@github.com:13th-Sammy/mint-backup.git
+git remote -v
+git status
+git push origin main
+git diff origin/main
+rm -rf .git
+git init
+git add . && git commit -m y
+git status
+git push origin main
+git remote set origin git@github.com:13th-Sammy/mint-backup.git
+git remote add origin git@github.com:13th-Sammy/mint-backup.git
+git push origin main
+clear
+git diff origin main
+git diff origin/main
+git add . && git commit -m y && git push origin main
+git diff origin/main
+clear
+ls -la
+nano .bashrc
+bash
+exit
