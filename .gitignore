@@ -12,5 +12,7 @@ Templates/
 Videos/
 VirtualBox VMs/
 .vscode/
-.config/Code/
+.config/Code/CachedExtensionVSIXs/
+.config/Code/User/
+.config/Code/CachedData/
 .ssh/id_ed25519

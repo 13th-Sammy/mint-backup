@@ -1513,3 +1513,23 @@ ls -la
 nano .bashrc
 bash
 exit
+git add . && git commit -m y
+clear
+ls .gitignore 
+cat .gitignore 
+git remote -v
+cd Desktop/temp/hello-world/
+git remote -v
+git status
+nano .gitignore
+git status
+git add .gitignore &&git commit -m y
+git checkout main
+git merge b1
+git merge b1 --no-ff
+git diff b1
+git checkout b1
+cd ~
+clear
+ls -la
+git add . && git commit -m y

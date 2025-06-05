@@ -1,0 +1,17 @@
+2025-06-03 19:14:12.504 [info] ComputeTargetPlatform: linux-x64
+2025-06-03 19:14:14.619 [info] ComputeTargetPlatform: linux-x64
+2025-06-03 19:14:16.164 [info] Getting Manifest... vscjava.vscode-java-pack
+2025-06-03 19:14:16.210 [info] Installing extension: vscjava.vscode-java-pack {"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sammy/.vscode/extensions/extensions.json","path":"/home/sammy/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-06-03 19:14:18.207 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2025-06-03 19:14:18.575 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2025-06-03 19:14:18.616 [info] Getting Manifest... redhat.java
+2025-06-03 19:14:18.717 [info] Getting Manifest... vscjava.vscode-java-debug
+2025-06-03 19:14:18.730 [info] Getting Manifest... vscjava.vscode-maven
+2025-06-03 19:14:18.745 [info] Getting Manifest... vscjava.vscode-java-test
+2025-06-03 19:14:18.756 [info] Getting Manifest... vscjava.vscode-java-dependency
+2025-06-03 19:14:18.769 [info] Getting Manifest... vscjava.vscode-gradle
+2025-06-03 19:14:23.347 [info] Extension signature verification result for vscjava.vscode-java-pack: Success. Internal Code: 0. Executed: true. Duration: 3554ms.
+2025-06-03 19:14:23.964 [info] Extracted extension to file:///home/sammy/.vscode/extensions/vscjava.vscode-java-pack-0.29.2: vscjava.vscode-java-pack
+2025-06-03 19:14:23.992 [info] Renamed to /home/sammy/.vscode/extensions/vscjava.vscode-java-pack-0.29.2
+2025-06-03 19:14:24.080 [info] Marked extension as removed vscjava.vscode-java-pack-0.29.1
+2025-06-03 19:14:24.143 [info] Extension installed successfully: vscjava.vscode-java-pack vscode-userdata:/home/sammy/.vscode/extensions/extensions.json

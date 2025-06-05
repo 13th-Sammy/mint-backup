@@ -1,0 +1,1747 @@
+Jun 03, 2025 7:26:10 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+Jun 03, 2025 7:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jun 03, 2025 7:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jun 03, 2025 7:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jun 03, 2025 7:26:27 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFO: Starting com.microsoft.java.debug.plugin
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+Jun 03, 2025 7:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+Jun 03, 2025 7:28:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 450
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 544
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 545
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 546
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 547
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 548
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 549
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 550
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 552
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 553
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 554
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 555
+Jun 03, 2025 7:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 556
+Jun 03, 2025 7:37:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:37:41] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 7:37:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:37:42] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 7:38:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:38:45] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 7:38:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:38:46] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 7:38:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:38:47] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getRoot()" because "node" is null
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.addAllSuppressWarningsProposalIfPossible(SuppressWarningsBaseSubProcessor.java:204)
+	at org.eclipse.jdt.internal.ui.text.correction.SuppressWarningsBaseSubProcessor.getSuppressWarningsProposals(SuppressWarningsBaseSubProcessor.java:128)
+	at org.eclipse.jdt.ls.core.internal.corrections.SuppressWarningsSubProcessor.addSuppressWarningsProposals(SuppressWarningsSubProcessor.java:33)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:714)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:98)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:204)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 7:43:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1695
+Jun 03, 2025 8:40:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:40:01] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:40:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:40:05] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:40:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:40:05] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:40:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:40:50] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:40:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:40:53] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:09] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:15] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:16] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:17] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:19] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 326 out of bounds for length 306
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 326 out of bounds for length 306
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 326 out of bounds for length 306
+	at org.eclipse.jdt.internal.core.Buffer.getChar(Buffer.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.getContextInfomation(SignatureHelpHandler.java:360)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.signatureHelp(SignatureHelpHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$6(JDTLanguageServer.java:676)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:22] Request textDocument/signatureHelp failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 326 out of bounds for length 306
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 326 out of bounds for length 306
+	at org.eclipse.jdt.internal.core.Buffer.getChar(Buffer.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.getContextInfomation(SignatureHelpHandler.java:360)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.signatureHelp(SignatureHelpHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$6(JDTLanguageServer.java:676)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:22] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:23] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:25] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:25] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:26] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:27] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:27] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:28] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:30] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:31] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 331 out of bounds for length 306
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 331 out of bounds for length 306
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 331 out of bounds for length 306
+	at org.eclipse.jdt.internal.core.Buffer.getChar(Buffer.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.getContextInfomation(SignatureHelpHandler.java:360)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.signatureHelp(SignatureHelpHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$6(JDTLanguageServer.java:676)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:32] Request textDocument/signatureHelp failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 331 out of bounds for length 306
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 331 out of bounds for length 306
+	at org.eclipse.jdt.internal.core.Buffer.getChar(Buffer.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.getContextInfomation(SignatureHelpHandler.java:360)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.signatureHelp(SignatureHelpHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$6(JDTLanguageServer.java:676)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:32] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:33] 03-Jun-2025, 8:41:33 pm Problem with codeComplete for file:///home/sammy/Desktop/temp/pong-game/PongGame.java
+Range [332, 336) out of bounds for length 306
+java.lang.StringIndexOutOfBoundsException: Range [332, 336) out of bounds for length 306
+	at java.base/jdk.internal.util.Preconditions$1.apply(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Unknown Source)
+	at java.base/java.lang.String.checkBoundsBeginEnd(Unknown Source)
+	at java.base/java.lang.String.substring(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.isCompletionForConstructor(CompletionHandler.java:368)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.computeContentAssist(CompletionHandler.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.completion(CompletionHandler.java:121)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.completion(JDTLanguageServer.java:633)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+Jun 03, 2025 8:41:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:33] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:34] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:36] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 346 out of bounds for length 306
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 346 out of bounds for length 306
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 346 out of bounds for length 306
+	at org.eclipse.jdt.internal.core.Buffer.getChar(Buffer.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.getContextInfomation(SignatureHelpHandler.java:360)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.signatureHelp(SignatureHelpHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$6(JDTLanguageServer.java:676)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:37] Request textDocument/signatureHelp failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 346 out of bounds for length 306
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 346 out of bounds for length 306
+	at org.eclipse.jdt.internal.core.Buffer.getChar(Buffer.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.getContextInfomation(SignatureHelpHandler.java:360)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.signatureHelp(SignatureHelpHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$6(JDTLanguageServer.java:676)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:37] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:39] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:41:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:41:40] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null
+	at org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:400)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:258)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:51:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5500
+Jun 03, 2025 8:53:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6510
+Jun 03, 2025 8:53:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6512
+Jun 03, 2025 8:53:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6511
+Jun 03, 2025 8:53:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6514
+Jun 03, 2025 8:53:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6519
+Jun 03, 2025 8:53:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6741
+[Error - 20:53:57] 03-Jun-2025, 8:53:57 pm Unable to load IDecompiler class for jarFileContentProvider
+Jun 03, 2025 8:54:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6833
+[Error - 20:54:26] 03-Jun-2025, 8:54:26 pm Unable to load IDecompiler class for jarFileContentProvider
+Jun 03, 2025 8:56:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 20:56:33] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 03, 2025 8:57:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7309
+Jun 03, 2025 9:19:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8506
+Jun 03, 2025 9:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9212
+Jun 03, 2025 9:32:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 21:32:52] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 21:46:30] 03-Jun-2025, 9:46:30 pm Unable to load IDecompiler class for jarFileContentProvider
+Jun 03, 2025 9:54:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11587
+Jun 03, 2025 9:58:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy5/jdk.proxy5.$Proxy19.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:269)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 11 more
+
+Jun 03, 2025 9:58:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy5/jdk.proxy5.$Proxy19.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 11 more
+
+Jun 03, 2025 9:58:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy5/jdk.proxy5.$Proxy19.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.done(ProgressReporterManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:74)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 8 more
+

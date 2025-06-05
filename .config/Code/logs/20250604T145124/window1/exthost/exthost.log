@@ -1,0 +1,598 @@
+2025-06-04 14:51:27.150 [info] Extension host with pid 3273 started
+2025-06-04 14:51:27.151 [info] Skipping acquiring lock for /home/sammy/.config/Code/User/workspaceStorage/f0977eb9793bdba8cbd14f99ae931749.
+2025-06-04 14:51:27.502 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-04 14:51:27.545 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-04 14:51:27.566 [info] ExtensionService#_doActivateExtension Oracle.oracle-java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-04 14:51:27.726 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-04 14:51:27.910 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-06-04 14:51:27.958 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-06-04 14:51:28.025 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-06-04 14:51:28.135 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-06-04 14:51:28.539 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-04 14:51:28.561 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-04 14:51:28.658 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-04 14:51:28.733 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-04 14:51:29.076 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-04 14:51:29.165 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-04 14:51:29.422 [info] Eager extensions activated
+2025-06-04 14:51:29.649 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-04 14:51:29.652 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-04 14:51:30.043 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-04 14:51:30.238 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-06-04 14:51:30.581 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-04 14:53:50.878 [error] [redhat.java] provider FAILED
+2025-06-04 14:53:50.881 [error] Error: The request (id: 430, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 14:53:52.853 [error] [redhat.java] provider FAILED
+2025-06-04 14:53:52.854 [error] Error: The request (id: 455, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 14:54:03.300 [error] [redhat.java] provider FAILED
+2025-06-04 14:54:03.300 [error] Error: The request (id: 485, method: 'textDocument/hover') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 14:58:04.059 [error] [redhat.java] provider FAILED
+2025-06-04 14:58:04.059 [error] Error: The request (id: 1052, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 14:58:25.965 [error] [redhat.java] provider FAILED
+2025-06-04 14:58:25.965 [error] Error: The request (id: 1117, method: 'textDocument/hover') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:00:45.429 [error] [redhat.java] provider FAILED
+2025-06-04 15:00:45.429 [error] Error: The request (id: 1674, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:01:05.844 [error] [redhat.java] provider FAILED
+2025-06-04 15:01:05.844 [error] Error: The request (id: 1835, method: 'textDocument/hover') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:01:28.451 [error] [redhat.java] provider FAILED
+2025-06-04 15:01:28.451 [error] Error: The request (id: 1881, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:01:42.128 [error] [redhat.java] provider FAILED
+2025-06-04 15:01:42.128 [error] Error: The request (id: 2043, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:01:43.172 [error] [redhat.java] provider FAILED
+2025-06-04 15:01:43.172 [error] Error: The request (id: 2062, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:04:16.677 [error] [redhat.java] provider FAILED
+2025-06-04 15:04:16.677 [error] Error: The request (id: 2589, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:04:21.521 [error] [redhat.java] provider FAILED
+2025-06-04 15:04:21.521 [error] Error: The request (id: 2650, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:06:36.797 [error] [redhat.java] provider FAILED
+2025-06-04 15:06:36.797 [error] Error: The request (id: 3293, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:06:37.521 [error] [redhat.java] provider FAILED
+2025-06-04 15:06:37.521 [error] Error: The request (id: 3305, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:06:41.341 [error] [redhat.java] provider FAILED
+2025-06-04 15:06:41.341 [error] Error: The request (id: 3361, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:07:10.575 [error] [redhat.java] provider FAILED
+2025-06-04 15:07:10.575 [error] Error: The request (id: 3642, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:08:41.636 [error] [redhat.java] provider FAILED
+2025-06-04 15:08:41.636 [error] Error: The request (id: 3957, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:08:58.056 [error] [redhat.java] provider FAILED
+2025-06-04 15:08:58.056 [error] Error: The request (id: 4093, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:10:02.283 [error] [redhat.java] provider FAILED
+2025-06-04 15:10:02.283 [error] Error: The request (id: 4585, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:10:03.795 [error] [redhat.java] provider FAILED
+2025-06-04 15:10:03.795 [error] Error: The request (id: 4603, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:10:06.865 [error] [redhat.java] provider FAILED
+2025-06-04 15:10:06.865 [error] Error: The request (id: 4642, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:10:22.290 [error] [redhat.java] provider FAILED
+2025-06-04 15:10:22.290 [error] Error: The request (id: 4823, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:12:52.409 [error] [redhat.java] provider FAILED
+2025-06-04 15:12:52.409 [error] Error: The request (id: 5053, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:12:55.170 [error] [redhat.java] provider FAILED
+2025-06-04 15:12:55.171 [error] Error: The request (id: 5085, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:12:58.920 [error] [redhat.java] provider FAILED
+2025-06-04 15:12:58.920 [error] Error: The request (id: 5140, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:13:07.953 [error] [redhat.java] provider FAILED
+2025-06-04 15:13:07.954 [error] Error: The request (id: 5242, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:13:30.041 [error] [redhat.java] provider FAILED
+2025-06-04 15:13:30.041 [error] Error: The request (id: 5430, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:13:48.472 [error] [redhat.java] provider FAILED
+2025-06-04 15:13:48.472 [error] Error: The request (id: 5659, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:14:12.265 [error] [redhat.java] provider FAILED
+2025-06-04 15:14:12.265 [error] Error: The request (id: 5824, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:14:13.838 [error] [redhat.java] provider FAILED
+2025-06-04 15:14:13.839 [error] Error: The request (id: 5847, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:14:14.669 [error] [redhat.java] provider FAILED
+2025-06-04 15:14:14.669 [error] Error: The request (id: 5860, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:21:36.414 [error] [redhat.java] provider FAILED
+2025-06-04 15:21:36.414 [error] Error: The request (id: 6368, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:21:36.734 [error] [redhat.java] provider FAILED
+2025-06-04 15:21:36.734 [error] Error: The request (id: 6372, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:27:32.810 [error] [redhat.java] provider FAILED
+2025-06-04 15:27:32.811 [error] Error: The request (id: 6744, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:28:18.282 [error] [redhat.java] provider FAILED
+2025-06-04 15:28:18.282 [error] Error: The request (id: 6998, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:28:43.946 [error] [redhat.java] provider FAILED
+2025-06-04 15:28:43.946 [error] Error: The request (id: 7055, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:28:52.699 [error] [redhat.java] provider FAILED
+2025-06-04 15:28:52.699 [error] Error: The request (id: 7157, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:29:01.539 [error] [redhat.java] provider FAILED
+2025-06-04 15:29:01.539 [error] Error: The request (id: 7274, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:29:08.557 [error] [redhat.java] provider FAILED
+2025-06-04 15:29:08.557 [error] Error: The request (id: 7338, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:29:09.932 [error] [redhat.java] provider FAILED
+2025-06-04 15:29:09.932 [error] Error: The request (id: 7356, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:31:05.261 [error] [redhat.java] provider FAILED
+2025-06-04 15:31:05.261 [error] Error: The request (id: 7850, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:34:29.055 [error] [Oracle.oracle-java] provider FAILED
+2025-06-04 15:34:29.055 [error] Error: selectionRange must be contained in fullRange
+	at Nf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Nf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:604:22)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:609:31)
+	at convertBatch (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:193:25)
+	at Object.map (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:202:17)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:601:22)
+	at _provideDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/documentSymbol.js:83:76)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+	at async T2.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:145:126055)
+2025-06-04 15:34:29.056 [error] [Oracle.oracle-java] provider FAILED
+2025-06-04 15:34:29.056 [error] Error: selectionRange must be contained in fullRange
+	at Nf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Nf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:604:22)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:609:31)
+	at convertBatch (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:193:25)
+	at Object.map (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:202:17)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:601:22)
+	at _provideDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/documentSymbol.js:83:76)
+	at async T2.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:145:126055)
+2025-06-04 15:34:31.138 [error] [Oracle.oracle-java] provider FAILED
+2025-06-04 15:34:31.138 [error] Error: selectionRange must be contained in fullRange
+	at Nf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Nf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:604:22)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:609:31)
+	at convertBatch (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:193:25)
+	at Object.map (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:202:17)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:601:22)
+	at _provideDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/documentSymbol.js:83:76)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+	at async T2.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:145:126055)
+2025-06-04 15:34:31.138 [error] [Oracle.oracle-java] provider FAILED
+2025-06-04 15:34:31.138 [error] Error: selectionRange must be contained in fullRange
+	at Nf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Nf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:604:22)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:609:31)
+	at convertBatch (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:193:25)
+	at Object.map (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:202:17)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:601:22)
+	at _provideDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/documentSymbol.js:83:76)
+	at async T2.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:145:126055)
+2025-06-04 15:34:32.053 [error] [Oracle.oracle-java] provider FAILED
+2025-06-04 15:34:32.053 [error] Error: selectionRange must be contained in fullRange
+	at Nf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Nf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:604:22)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:609:31)
+	at convertBatch (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:193:25)
+	at Object.map (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:202:17)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:601:22)
+	at _provideDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/documentSymbol.js:83:76)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+	at async T2.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:145:126055)
+2025-06-04 15:34:32.053 [error] [Oracle.oracle-java] provider FAILED
+2025-06-04 15:34:32.053 [error] Error: selectionRange must be contained in fullRange
+	at Nf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Nf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:604:22)
+	at asDocumentSymbol (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:609:31)
+	at convertBatch (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:193:25)
+	at Object.map (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:202:17)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:601:22)
+	at _provideDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/documentSymbol.js:83:76)
+	at async T2.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:145:126055)
+2025-06-04 15:35:36.262 [error] [redhat.java] provider FAILED
+2025-06-04 15:35:36.262 [error] Error: The request (id: 8993, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:35:36.861 [error] [redhat.java] provider FAILED
+2025-06-04 15:35:36.861 [error] Error: The request (id: 9004, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:40:18.560 [error] [redhat.java] provider FAILED
+2025-06-04 15:40:18.560 [error] Error: The request (id: 9462, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:40:21.452 [error] [redhat.java] provider FAILED
+2025-06-04 15:40:21.452 [error] Error: The request (id: 9487, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:40:26.029 [error] [redhat.java] provider FAILED
+2025-06-04 15:40:26.029 [error] Error: The request (id: 9548, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:40:38.927 [error] [redhat.java] provider FAILED
+2025-06-04 15:40:38.927 [error] Error: The request (id: 9565, method: 'textDocument/hover') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:43:15.302 [error] [redhat.java] provider FAILED
+2025-06-04 15:43:15.302 [error] Error: The request (id: 9629, method: 'textDocument/hover') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:45:30.095 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-06-04 15:45:30.110 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-06-04 15:45:30.603 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-06-04 15:50:26.735 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:50:26.735 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:50:26.735 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:50:26.736 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:50:33.909 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:50:33.910 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:50:33.910 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:50:33.910 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:50:37.779 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:50:37.780 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:50:37.780 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:50:37.781 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:51:09.768 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:51:09.769 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:51:09.769 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:51:09.769 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:51:25.753 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:51:25.753 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:51:25.754 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:51:25.754 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:51:30.533 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:51:30.533 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:51:30.533 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:51:30.534 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:51:34.844 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:51:34.844 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:51:34.845 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:51:34.845 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:51:39.466 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:51:39.467 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:51:39.467 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:51:39.468 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:51:57.520 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 15:51:57.520 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 15:51:57.521 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 15:51:57.521 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 15:56:18.493 [error] [redhat.java] provider FAILED
+2025-06-04 15:56:18.493 [error] Error: The request (id: 9981, method: 'textDocument/hover') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:57:42.364 [error] [redhat.java] provider FAILED
+2025-06-04 15:57:42.364 [error] Error: The request (id: 10568, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 15:57:42.696 [error] [redhat.java] provider FAILED
+2025-06-04 15:57:42.696 [error] Error: The request (id: 10573, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:03:52.604 [error] [redhat.java] provider FAILED
+2025-06-04 16:03:52.604 [error] Error: The request (id: 10802, method: 'textDocument/hover') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:12:34.722 [error] [redhat.java] provider FAILED
+2025-06-04 16:12:34.722 [error] Error: The request (id: 11342, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:12:35.284 [error] [redhat.java] provider FAILED
+2025-06-04 16:12:35.284 [error] Error: The request (id: 11351, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:12:37.056 [error] [redhat.java] provider FAILED
+2025-06-04 16:12:37.056 [error] Error: The request (id: 11377, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:12:37.746 [error] [redhat.java] provider FAILED
+2025-06-04 16:12:37.747 [error] Error: The request (id: 11386, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:12:39.648 [error] [redhat.java] provider FAILED
+2025-06-04 16:12:39.648 [error] Error: The request (id: 11414, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:12:40.978 [error] [redhat.java] provider FAILED
+2025-06-04 16:12:40.978 [error] Error: The request (id: 11434, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:12:54.382 [error] [redhat.java] provider FAILED
+2025-06-04 16:12:54.382 [error] Error: The request (id: 11520, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:12:55.636 [error] [redhat.java] provider FAILED
+2025-06-04 16:12:55.636 [error] Error: The request (id: 11535, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 16:15:28.314 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 16:15:28.315 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 16:15:28.315 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 16:15:28.316 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 16:15:32.774 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 16:15:32.774 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 16:15:32.775 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 16:15:32.775 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 16:15:35.856 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 16:15:35.856 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 16:15:35.857 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 16:15:35.857 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 16:15:42.736 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 16:15:42.737 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 16:15:42.737 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 16:15:42.737 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 16:15:59.754 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/GamePanel.java.git'
+2025-06-04 16:15:59.754 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/Main.java.git'
+2025-06-04 16:15:59.754 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/PongGame.java.git'
+2025-06-04 16:15:59.755 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/pong-game/README.md.git'
+2025-06-04 16:19:55.673 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-04 16:19:55.813 [error] Error: Channel has been closed
+	at s (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+	at Object.appendLine (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:2570)
+	at R.logOutputMessage (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:290791)
+	at R.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:290524)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514797)
+	at ChildProcess.emit (node:events:524:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-04 16:19:56.099 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:1167:27)
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1586:35)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1155:34)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/node/main.js:180:22)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1142:18)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:314:26)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at StreamMessageWriter.fireClose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:42:27)
+	at Socket.<anonymous> (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:74:42)
+	at Socket.emit (node:events:536:35)
+	at TCP.<anonymous> (node:net:343:12)
+2025-06-04 16:19:56.099 [info] Extension host with pid 3273 exiting with code 0

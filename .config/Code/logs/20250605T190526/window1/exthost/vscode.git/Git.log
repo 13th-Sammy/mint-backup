@@ -1,0 +1,30 @@
+2025-06-05 19:05:30.267 [info] [main] Log level: Info
+2025-06-05 19:05:30.267 [info] [main] Validating found git in: "git"
+2025-06-05 19:05:30.267 [info] [main] Using git "2.43.0" from "git"
+2025-06-05 19:05:30.267 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-05 19:05:30.267 [info] > git rev-parse --show-toplevel [18ms]
+2025-06-05 19:05:30.267 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2025-06-05 19:05:30.267 [info] [Model][openRepository] Opened repository (path): /home/sammy/Desktop/temp/pong-game
+2025-06-05 19:05:30.267 [info] [Model][openRepository] Opened repository (real path): /home/sammy/Desktop/temp/pong-game
+2025-06-05 19:05:30.296 [info] > git rev-parse --show-toplevel [15ms]
+2025-06-05 19:05:30.298 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-05 19:05:30.298 [info] > git config --get commit.template [24ms]
+2025-06-05 19:05:30.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [17ms]
+2025-06-05 19:05:30.403 [info] > git status -z -uall [39ms]
+2025-06-05 19:05:30.412 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [35ms]
+2025-06-05 19:05:30.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [63ms]
+2025-06-05 19:05:30.526 [info] > git config --get --local branch.b1.vscode-merge-base [34ms]
+2025-06-05 19:05:30.533 [info] > git config --get commit.template [52ms]
+2025-06-05 19:05:30.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [104ms]
+2025-06-05 19:05:30.785 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [79ms]
+2025-06-05 19:05:30.890 [info] > git status -z -uall [98ms]
+2025-06-05 19:05:30.890 [info] > git check-ignore -v -z --stdin [82ms]
+2025-06-05 19:05:30.891 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [91ms]
+2025-06-05 19:05:30.918 [info] > git show --textconv :GamePanel.java [15ms]
+2025-06-05 19:05:30.964 [info] > git ls-files --stage -- GamePanel.java [52ms]
+2025-06-05 19:05:30.985 [info] > git cat-file -s 90431da004992f561ac97c8bf171b477d3083b1f [13ms]
+2025-06-05 19:05:31.059 [info] > git blame --root --incremental 0b59be6b7ba795aa1492a848fd14bc19527f2ba1 -- GamePanel.java [42ms]
+2025-06-05 19:09:37.572 [info] > git config --get commit.template [11ms]
+2025-06-05 19:09:37.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [1ms]
+2025-06-05 19:09:37.586 [info] > git status -z -uall [8ms]
+2025-06-05 19:09:37.587 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]

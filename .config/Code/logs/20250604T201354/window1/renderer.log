@@ -1,0 +1,106 @@
+2025-06-04 20:13:55.954 [info] Started local extension host with pid 63676.
+2025-06-04 20:13:56.037 [info] ComputeTargetPlatform: linux-x64
+2025-06-04 20:13:56.501 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:13:56.501 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:13:56.501 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:13:57.733 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-04 20:13:58.802 [info] [perf] Render performance baseline is 33ms
+2025-06-04 20:14:05.321 [error] InstantiationService has been disposed: Error: InstantiationService has been disposed
+    at a0t.m (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1905:372)
+    at a0t.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1905:929)
+    at $ht.m (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2594:13600)
+    at $ht.j (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2594:13400)
+    at async $ht.provideLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2594:12835)
+2025-06-04 20:14:06.629 [info] Started local extension host with pid 64303.
+2025-06-04 20:14:06.834 [info] ComputeTargetPlatform: linux-x64
+2025-06-04 20:14:08.055 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:14:08.055 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:14:08.056 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:14:10.428 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-04 20:14:11.185 [info] [perf] Render performance baseline is 50ms
+2025-06-04 20:18:33.300 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 20:18:34.360 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-04 20:19:04.948 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:20:46.600 [info] Started local extension host with pid 67025.
+2025-06-04 20:20:46.630 [info] ComputeTargetPlatform: linux-x64
+2025-06-04 20:20:46.927 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:20:46.927 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:20:46.927 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:20:47.214 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-04 20:20:47.480 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-04 20:20:49.185 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 122ms.
+2025-06-04 20:20:49.370 [info] [perf] Render performance baseline is 30ms
+2025-06-04 20:22:11.843 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:22:15.563 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:23:52.082 [warning] Semantic token with invalid length detected at lineNumber 8, column 16
+2025-06-04 20:38:05.813 [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Nf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Nf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at G (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1244047)
+	at c (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1282563)
+	at t.map (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1282649)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1252103)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:945493
+	at Generator.next (<anonymous>)
+	at s (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:944549)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2025-06-04 20:38:05.813 [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Nf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Nf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at G (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1244047)
+	at c (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1282563)
+	at t.map (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1282649)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1252103)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:945493
+	at Generator.next (<anonymous>)
+	at s (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:944549)
+2025-06-04 20:54:13.119 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:54:48.769 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:54:53.662 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:55:00.371 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:55:19.358 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:55:26.926 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 20:56:29.319 [error] Error: The editor could not be opened because the file was not found.
+    at wSe.gc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:120185)
+    at async wSe.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:119343)
+    at async JHe.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:19756)
+    at async JHe.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:18311)
+    at async JHe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:17393)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:797:23342
+2025-06-04 20:56:29.370 [info] Started local extension host with pid 78071.
+2025-06-04 20:56:29.495 [info] ComputeTargetPlatform: linux-x64
+2025-06-04 20:56:29.909 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:56:29.910 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:56:29.910 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-04 20:56:30.640 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-04 20:56:32.093 [info] [perf] Render performance baseline is 20ms
+2025-06-04 20:59:45.935 [error] Error: The editor could not be opened because the file was not found.
+    at wSe.gc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:120185)
+    at async wSe.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:119343)
+    at async JHe.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:19756)
+    at async JHe.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:18311)
+    at async JHe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:17393)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:797:23342
+2025-06-04 21:04:03.025 [info] Started local extension host with pid 80343.
+2025-06-04 21:04:03.135 [info] ComputeTargetPlatform: linux-x64
+2025-06-04 21:04:03.568 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-04 21:04:03.568 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-04 21:04:03.569 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-04 21:04:04.316 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-04 21:04:05.849 [info] [perf] Render performance baseline is 24ms
+2025-06-04 21:09:12.873 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 21:09:18.161 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 21:09:21.069 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 21:09:43.535 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-04 21:09:58.847 [error] An unknown error occurred. Please consult the log for more details.

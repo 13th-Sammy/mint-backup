@@ -1,0 +1,14 @@
+2025-06-03 20:21:44.745 [info] Started local extension host with pid 28910.
+2025-06-03 20:21:44.819 [info] ComputeTargetPlatform: linux-x64
+2025-06-03 20:21:45.075 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-03 20:21:45.075 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-03 20:21:45.075 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-03 20:21:45.547 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-03 20:21:47.430 [info] [perf] Render performance baseline is 24ms
+2025-06-03 20:21:55.762 [info] Started local extension host with pid 29007.
+2025-06-03 20:21:55.878 [info] ComputeTargetPlatform: linux-x64
+2025-06-03 20:21:56.382 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-03 20:21:56.382 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-03 20:21:56.382 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-03 20:21:57.502 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-03 20:21:58.421 [info] [perf] Render performance baseline is 20ms

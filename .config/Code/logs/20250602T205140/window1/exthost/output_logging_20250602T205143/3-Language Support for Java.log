@@ -1,0 +1,87 @@
+Jun 02, 2025 8:51:47 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+[Error - 20:51:58] 02-Jun-2025, 8:51:58 pm Failed to read package name from file:/home/sammy/Desktop/temp/hello-world/Program.java
+/home/sammy/Desktop/temp/hello-world/Program.java
+java.nio.file.NoSuchFileException: /home/sammy/Desktop/temp/hello-world/Program.java
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at java.base/java.nio.file.Files.readString(Unknown Source)
+	at java.base/java.nio.file.Files.readString(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:341)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:515)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:493)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:483)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.loadInvisibleProject(InvisibleProjectImporter.java:131)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.importToWorkspace(InvisibleProjectImporter.java:112)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:164)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:126)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:263)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 20:52:01] 02-Jun-2025, 8:52:01 pm [Working copy] Program.java [in <default> [in _ [in hello-world_c35e2334]]] does not exist
+[Working copy] Program.java [in <default> [in _ [in hello-world_c35e2334]]] does not exist
+Java Model Exception: Error in Java Model (code 969): [Working copy] Program.java [in <default> [in _ [in hello-world_c35e2334]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:342)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+Jun 02, 2025 8:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jun 02, 2025 8:53:28 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFO: Starting com.microsoft.java.debug.plugin
+Jun 02, 2025 8:54:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 771
+Jun 02, 2025 8:55:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1024
+Jun 02, 2025 8:56:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1570
+Jun 02, 2025 8:57:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2002
+Jun 02, 2025 8:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2021
+Jun 02, 2025 8:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2020
+Jun 02, 2025 8:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2026
+Jun 02, 2025 8:57:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2120
+Jun 02, 2025 8:58:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2474
+Jun 02, 2025 8:59:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2990
+Jun 02, 2025 9:01:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3899
+Jun 02, 2025 9:04:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4353
+Jun 02, 2025 9:04:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4401
+[Error - 21:12:46] 02-Jun-2025, 9:12:46 pm Unable to load IDecompiler class for jarFileContentProvider
+Jun 02, 2025 9:13:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7164
+Jun 02, 2025 9:14:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7433
+Jun 02, 2025 9:14:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7434
+Jun 02, 2025 9:14:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7437
+Jun 02, 2025 9:21:57 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 02, 2025 9:21:58 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
