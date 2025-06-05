@@ -8,7 +8,7 @@
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=7aed9208-6488-4cbc-a0b6-90957ab57375"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="n=GLOBAL"/>
       <ExtraDataItem name="GUI/LastWindowPosition" value="480,270,960,540"/>
       <ExtraDataItem name="GUI/MediumSelector/DialogGeometry" value="480,118,960,780"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/sammy/Downloads"/>
@@ -17,9 +17,12 @@
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Snapshots"/>
     </ExtraData>
-    <MachineRegistry>
-      <MachineEntry uuid="{7aed9208-6488-4cbc-a0b6-90957ab57375}" src="/home/sammy/VirtualBox VMs/R-Home/R-Home.vbox"/>
-    </MachineRegistry>
+    <MachineRegistry/>
+    <MediaRegistry>
+      <HardDisks>
+        <HardDisk uuid="{fee4f6df-a8c7-49d6-aeed-531a22aae012}" location="/home/sammy/VirtualBox VMs/R-Home/R-Home.vdi" format="VDI" type="Normal"/>
+      </HardDisks>
+    </MediaRegistry>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>

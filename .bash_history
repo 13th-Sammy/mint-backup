@@ -1533,3 +1533,20 @@ cd ~
 clear
 ls -la
 git add . && git commit -m y
+nano .gitignore 
+git status
+git add . && git commit -m y
+git push origin main
+nano .gitignore 
+git status
+git add . && git commit -m y
+git push origin main
+cat .gitignore 
+nano .gitignore 
+git status
+git add . && git commit -m y
+git push origin main
+cat .gitignore 
+ncdu
+clear
+ncdu
