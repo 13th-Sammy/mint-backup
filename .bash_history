@@ -1550,3 +1550,12 @@ cat .gitignore
 ncdu
 clear
 ncdu
+cron
+nano .bashrc
+git-pushAll
+nano .bashrc
+gg
+nano .bashrc
+gg
+nano .bashrc
+gg
