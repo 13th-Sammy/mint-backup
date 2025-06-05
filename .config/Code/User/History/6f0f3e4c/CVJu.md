@@ -1,0 +1,4 @@
+# newrepo
+
+Hello.
+Hi.

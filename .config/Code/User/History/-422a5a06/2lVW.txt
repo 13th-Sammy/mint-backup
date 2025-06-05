@@ -1,0 +1,5 @@
+I think the point is that you work on branches and merge with main on 
+local machine for security.
+
+And you push to a branch in remote and create a pull request.
+Admin chooses to merge it with remote main.

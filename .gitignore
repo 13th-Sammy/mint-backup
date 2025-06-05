@@ -13,6 +13,7 @@ Videos/
 VirtualBox VMs/
 .vscode/
 .config/Code/CachedExtensionVSIXs/
-.config/Code/User/
+.config/Code/User/workspaceStorage/
+.config/Code/User/globalStorage
 .config/Code/CachedData/
 .ssh/id_ed25519
