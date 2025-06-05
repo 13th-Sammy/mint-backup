@@ -1407,3 +1407,78 @@ cd mintMenu/
 ls 
 cd ..
 ls mintupdate/
+nano .gitignore
+ls -la
+git init
+git status
+nano .gitignore
+git status
+git add . && git commit -m y
+git revert
+git reset
+ls -la
+rm -rf .git/
+ls -la
+git init
+git status
+git add .
+git commit -m y
+clear
+ls -la
+git status
+git add .
+git commit -m y
+git add .config/Code/User/workspaceStorage/dd918b45ff2846cfdfc8919a1dd5fea0/redhat.java/jdt_ws/hello-world_c35e2334/bin
+git status
+git add .
+git status
+git add .
+git status
+git commit -m y
+git status
+nano .gitignore 
+git status
+nano .gitignore 
+git status
+git add .gitignore && git commit -m y
+git status
+nano .gitignore 
+git add --force .
+git status
+nano .gitignore 
+git status
+nano .gitignore 
+git rm --cached .config/Code/User/workspaceStorage/ -r
+git status
+git add . && git commit -m y
+nano .gitignore 
+clear
+ls -la
+rm -rf .git
+ls -la
+git init
+git status
+git add . && git commit -m y
+git status
+ls -la
+git remote add origin https://github.com/13th-Sammy/mint-backup.git
+git remote -v
+git push origin main
+ls .ssh/
+cat .ssh/known_hosts 
+ssh-keygen -t ed25519 -C singhpalu732@gmail.com
+ls .ssh/
+cat .ssh/id_ed25519.pub 
+cat .ssh/id_ed25519
+git remote set-url origin git@github.com:13th-Sammy/mint-backup.git
+git remote -v
+git status
+git add . && git commit -m y
+git status
+git push origin main
+ncdu
+git status
+git add . && git commit -m y
+git status
+ncdu
+nano .gitignore 
