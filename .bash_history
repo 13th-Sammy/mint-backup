@@ -1559,3 +1559,5 @@ nano .bashrc
 gg
 nano .bashrc
 gg
+reboot'
+reboot
