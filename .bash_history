@@ -1576,3 +1576,5 @@ reboot
 git status
 gg
 shutdown now
+git status
+gg
