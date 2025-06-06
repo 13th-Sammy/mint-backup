@@ -1,0 +1,35 @@
+2025-06-06 17:06:43.312 [info] Started local extension host with pid 31531.
+2025-06-06 17:06:43.408 [info] ComputeTargetPlatform: linux-x64
+2025-06-06 17:06:43.873 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-06 17:06:43.874 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-06 17:06:43.874 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-06 17:06:45.046 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-06 17:06:46.059 [info] [perf] Render performance baseline is 24ms
+2025-06-06 17:19:04.130 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Jd.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at gne.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at PLe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at vki.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:6852)
+    at uae.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:11190)
+    at LFe.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-06 18:21:07.988 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Jd.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at gne.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at PLe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at vki.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:6852)
+    at uae.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:11190)
+    at LFe.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-06 18:54:48.962 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 18:54:56.196 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 18:55:01.047 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 18:55:10.211 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 18:55:36.677 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 18:56:02.368 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 21:34:29.135 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 21:34:33.676 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 21:34:43.392 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 21:34:48.182 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 21:35:00.810 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-06 21:35:16.995 [error] An unknown error occurred. Please consult the log for more details.

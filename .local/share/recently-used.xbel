@@ -380,4 +380,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/RcFactorial.cpp" added="2025-06-06T11:47:24.052672Z" modified="2025-06-06T11:47:24.052680Z" visited="2025-06-06T11:47:24.052673Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-06-06T11:47:24.052676Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

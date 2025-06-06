@@ -1,0 +1,101 @@
+2025-06-06 17:06:43.880 [info] Extension host with pid 31531 started
+2025-06-06 17:06:43.880 [info] Skipping acquiring lock for /home/sammy/.config/Code/User/workspaceStorage/dd918b45ff2846cfdfc8919a1dd5fea0.
+2025-06-06 17:06:44.132 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-06 17:06:44.160 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-06 17:06:44.177 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-06-06 17:06:44.776 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-06 17:06:44.832 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-06 17:06:44.905 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-06 17:06:45.202 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-06 17:06:45.222 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-06 17:06:45.286 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-06 17:06:45.439 [info] ExtensionService#_doActivateExtension Oracle.oracle-java, startup: true, activationEvent: 'workspaceContains:**/*.java'
+2025-06-06 17:06:45.563 [info] Eager extensions activated
+2025-06-06 17:06:45.610 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-06 17:06:45.613 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-06 17:11:47.524 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugDynamicConfigurations'
+2025-06-06 17:11:52.701 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-06-06 17:19:23.248 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:19:24.263 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:19:25.263 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:19:37.978 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:20:38.375 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:20:43.486 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:20:46.273 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:20:46.594 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:22:07.294 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:22:08.310 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:22:24.030 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:22:25.398 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:24:38.413 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:24:39.029 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:26:53.983 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 17:33:47.977 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 18:17:02.001 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-06-06 18:54:36.915 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-06 18:54:37.134 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-06-06 18:54:37.184 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-06-06 18:54:37.250 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-06-06 18:54:37.366 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-06-06 18:54:37.953 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-06 18:54:38.195 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-06-06 18:54:38.379 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-06 18:54:41.649 [error] [redhat.java] provider FAILED
+2025-06-06 18:54:41.651 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-06 18:54:41.652 [error] [redhat.java] provider FAILED
+2025-06-06 18:54:41.652 [error] Error: The request (id: 2, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069434
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1069728)
+	at /home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064512
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.42.0-linux-x64/dist/extension.js:2:1064532)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-06 18:54:48.960 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/RcPrintN.cpp.git'
+2025-06-06 18:54:48.960 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcSumtoN.cpp.git'
+2025-06-06 18:54:48.961 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcFib.cpp.git'
+2025-06-06 18:54:48.961 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcPrintN.cpp.git'
+2025-06-06 18:54:48.962 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/JavaRandom.java.git'
+2025-06-06 18:54:56.194 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/RcPrintN.cpp.git'
+2025-06-06 18:54:56.195 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcSumtoN.cpp.git'
+2025-06-06 18:54:56.195 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcFib.cpp.git'
+2025-06-06 18:54:56.195 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcPrintN.cpp.git'
+2025-06-06 18:54:56.196 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/JavaRandom.java.git'
+2025-06-06 18:55:01.045 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/RcPrintN.cpp.git'
+2025-06-06 18:55:01.045 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcSumtoN.cpp.git'
+2025-06-06 18:55:01.046 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcPrintN.cpp.git'
+2025-06-06 18:55:01.046 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcFib.cpp.git'
+2025-06-06 18:55:01.046 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/JavaRandom.java.git'
+2025-06-06 18:55:10.209 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/RcPrintN.cpp.git'
+2025-06-06 18:55:10.210 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcSumtoN.cpp.git'
+2025-06-06 18:55:10.210 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcPrintN.cpp.git'
+2025-06-06 18:55:10.211 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcFib.cpp.git'
+2025-06-06 18:55:10.211 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/JavaRandom.java.git'
+2025-06-06 18:55:36.675 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/RcPrintN.cpp.git'
+2025-06-06 18:55:36.675 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcSumtoN.cpp.git'
+2025-06-06 18:55:36.676 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcFib.cpp.git'
+2025-06-06 18:55:36.676 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcPrintN.cpp.git'
+2025-06-06 18:55:36.676 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/JavaRandom.java.git'
+2025-06-06 18:56:02.367 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/RcPrintN.cpp.git'
+2025-06-06 18:56:02.367 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcSumtoN.cpp.git'
+2025-06-06 18:56:02.367 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcFib.cpp.git'
+2025-06-06 18:56:02.368 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/Recursion-Basic/RcPrintN.cpp.git'
+2025-06-06 18:56:02.368 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/JavaRandom.java.git'
+2025-06-06 21:19:41.278 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 21:19:41.955 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 21:19:45.708 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 21:19:48.873 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 21:19:51.754 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 21:19:53.959 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-06 21:34:29.133 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 21:34:33.674 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 21:34:43.391 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 21:34:48.180 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 21:34:48.181 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 21:35:00.808 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 21:35:00.808 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 21:35:16.993 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 21:35:16.993 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'

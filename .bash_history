@@ -1615,3 +1615,29 @@ git ls-files --deleted
 git add -u
 git status
 gc && gp
+nano README.md
+nano .gitignore
+git rm -r --cached .
+gc
+gp
+git history
+git log
+git status
+gc
+gp
+clear
+touch RcPrintN.cpp
+rm RcPrintName
+gc
+rm RcPrintName
+gc
+clear
+touch Rc1toN.cpp
+rm RcPrintN
+gc
+touch RcPrintName.cpp
+rm RcSumtoN
+gc
+rm Rc1toN
+gc
+touch RcSumtoN.cpp
