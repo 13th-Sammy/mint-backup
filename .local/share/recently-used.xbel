@@ -23,36 +23,6 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/class.cpp" added="2025-05-29T16:07:21.651280Z" modified="2025-05-29T16:07:21.651284Z" visited="2025-05-29T16:07:21.651281Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-29T16:07:21.651282Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/test.cpp" added="2025-05-29T16:45:06.040501Z" modified="2025-05-29T16:45:06.040511Z" visited="2025-05-29T16:45:06.040502Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-29T16:45:06.040506Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/shallow-deep.cpp" added="2025-05-29T16:57:44.268054Z" modified="2025-05-29T16:57:44.268064Z" visited="2025-05-29T16:57:44.268055Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-29T16:57:44.268059Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/sammy/Desktop/temp/hello-world/student.cpp" added="2025-05-29T20:22:28.860968Z" modified="2025-05-29T20:22:28.860977Z" visited="2025-05-29T20:22:28.860970Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -370,12 +340,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///media/sammy/Backup1" added="2025-06-05T19:00:49.365554Z" modified="2025-06-05T19:00:49.365560Z" visited="2025-06-05T19:00:49.365555Z">
+  <bookmark href="file:///media/sammy/Backup1" added="2025-06-05T19:00:49.365554Z" modified="2025-06-06T18:13:02.721887Z" visited="2025-06-05T19:00:49.365555Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="nemo-desktop" exec="&apos;nemo %U&apos;" modified="2025-06-05T19:00:49.365557Z" count="1"/>
+          <bookmark:application name="nemo-desktop" exec="&apos;nemo %U&apos;" modified="2025-06-06T18:13:02.721883Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
