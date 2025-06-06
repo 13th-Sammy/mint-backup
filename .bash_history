@@ -1573,3 +1573,6 @@ ls -la
 rm -rf 2025-06-06_00-10-48/
 sudo rm -rf 2025-06-06_00-10-48/
 reboot
+git status
+gg
+shutdown now

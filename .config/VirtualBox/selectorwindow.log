@@ -1,21 +1,93 @@
-00:00:00.272780 VirtualBox GUI VM Selector Window 7.0.16_Ubuntu r162802 linux.amd64 (Aug 25 2024 22:41:46) release log
-00:00:00.272782 Log opened 2025-06-05T18:19:27.203176000Z
-00:00:00.272782 Build Type: release
-00:00:00.272785 OS Product: Linux
-00:00:00.272786 OS Release: 6.8.0-60-generic
-00:00:00.272786 OS Version: #63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025
-00:00:00.272806 DMI Product Name: HP Laptop 15s-du3xxx
-00:00:00.272810 DMI Product Version: Type1ProductConfigId
-00:00:00.272815 Firmware type: UEFI
-00:00:00.274207 Secure Boot: Disabled
-00:00:00.274264 Host RAM: 7696MB (7.5GB) total, 5590MB (5.4GB) available
-00:00:00.274268 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.274269 Process ID: 55249
-00:00:00.274269 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.274312 Qt version: 5.15.13
-00:00:00.274804 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
-00:00:00.283846 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.704785 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1040
-00:00:00.727554 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:02:19.277906 GUI: UICommon: Handling aboutToQuit request..
-00:02:19.996051 GUI: UICommon: aboutToQuit request handled!
+00:00:00.351582 VirtualBox GUI VM Selector Window 7.0.16_Ubuntu r162802 linux.amd64 (Aug 25 2024 22:41:46) release log
+00:00:00.351583 Log opened 2025-06-06T05:56:50.753149000Z
+00:00:00.351584 Build Type: release
+00:00:00.351587 OS Product: Linux
+00:00:00.351587 OS Release: 6.8.0-60-generic
+00:00:00.351588 OS Version: #63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025
+00:00:00.351605 DMI Product Name: HP Laptop 15s-du3xxx
+00:00:00.351609 DMI Product Version: Type1ProductConfigId
+00:00:00.351614 Firmware type: UEFI
+00:00:00.352969 Secure Boot: Disabled
+00:00:00.353013 Host RAM: 7696MB (7.5GB) total, 6766MB (6.6GB) available
+00:00:00.353017 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.353017 Process ID: 2963
+00:00:00.353017 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.353057 Qt version: 5.15.13
+00:00:00.354089 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.359840 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.359852 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.769407 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1040
+00:01:32.581914 GUI: UIMediumEnumerator: Medium with key={{d35b14c7-ecc8-45e9-8d07-7edc2a5281e6}} created
+00:01:32.659527 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:37.735357 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:38.264729 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:47.660783 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:57.360428 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:42.161399 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:42.454651 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:55.758024 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:03.337338 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:07.355440 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:09.052460 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:10.295576 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:12.234061 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:13.270227 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:17.455359 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:22.486537 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:22.928451 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:23.783954 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:25.955802 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:26.968618 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:29.055162 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:40.771189 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:53.040752 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:53.083858 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:01.811929 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:09.682680 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:16.525625 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:19.465515 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:27.845949 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:32.553250 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:43.388266 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:52.100547 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:07.891174 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:17.728146 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:17:54.862278 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:53.973278 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:05.346095 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:06.153931 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:29:06.251425 GUI: Updating snapshot tree after TAKING snapshot with MachineID={{c15d9908-f8ed-44a1-a437-fd24a2c46af7}}, SnapshotID={{494f1723-0aab-4a37-9c2b-789dd65c5b61}}...
+00:29:06.251575 GUI: Snapshot tree update failed! Rebuilding from scratch...
+00:29:06.317826 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:42.180993 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:44.534250 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:46.924450 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:50:03.043549 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:50:16.995553 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:50:17.280945 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:50:18.117938 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:50:18.259397 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:50:18.287475 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:50:18.557318 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:51:21.674355 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:51:22.753749 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:51:28.187124 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:51:33.353015 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:53:40.118392 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:53:40.873852 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:53:44.466347 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:53:58.436022 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:55:24.512152 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:55:26.186592 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:55:26.282854 GUI: Updating snapshot tree after TAKING snapshot with MachineID={{c15d9908-f8ed-44a1-a437-fd24a2c46af7}}, SnapshotID={{06a56c43-f30e-49ec-8433-659262a66f0b}}...
+00:55:26.283057 GUI: Snapshot tree update failed! Rebuilding from scratch...
+00:55:26.348997 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:55:39.082592 GUI: Updating snapshot tree after RESTORING snapshot with MachineID={{c15d9908-f8ed-44a1-a437-fd24a2c46af7}}, SnapshotID={{06a56c43-f30e-49ec-8433-659262a66f0b}}...
+00:55:39.095548 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:55:39.124010 GUI: Snapshot tree update successful!
+00:55:39.129849 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:56:01.824126 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:56:03.485630 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:56:16.292030 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:56:19.916506 GUI: UICommon: Handling aboutToQuit request..
+00:56:20.347261 GUI: UICommon: aboutToQuit request handled!
