@@ -1596,3 +1596,22 @@ git config --global user.email 213174535+13th-Sammy@users.noreply.github.com
 git config --list
 ls -la
 ncdu
+nano .gitignore 
+git status
+gc
+gp
+git diff origin/main
+nano .gitignore 
+git rm -r --cached
+git rm -r --cached .
+gc
+gp
+ls -la
+cd .cert/nm-openvpn/
+ls -la
+cd ..
+gc
+git ls-files --deleted
+git add -u
+git status
+gc && gp
