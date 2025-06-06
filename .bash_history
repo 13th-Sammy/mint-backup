@@ -1641,3 +1641,51 @@ gc
 rm Rc1toN
 gc
 touch RcSumtoN.cpp
+gc && gp
+rm -rf hash-freq
+gc
+git checkout main
+git merge b1
+git merge b1 --no-ff
+git diff b1
+gp
+git diff origin/main
+git checkout b1
+cd Recursion-Basic/
+ls -la
+rm RcFib
+rm RcFib.cpp 
+git -rm -r --cached
+git rm -r --cached
+gc
+git restore RcPrintN.cpp 
+cd ..
+git checkout main
+git merge b1
+git merge b1 --no-ff
+git diff b1
+gp
+git diff origin/main 
+git diff b1
+git checkout b1
+git diff main
+touch hash-freq.cpp
+rm RcSumtoN
+gc
+rm RcSumtoN
+gc
+rm RcFactorial
+gc
+touch RcIfPal
+mv RcIfPal RcIfPal.cpp
+rm RcIfPal
+g++ RcIfPal.cpp 
+./a.out 
+rm -rf a.out 
+rm RcIfPal
+gc
+mkdir Recursion-Basic
+mv Rc* Recursion-Basic/
+gc
+cd Recursion-Basic/
+touch RcFib.cpp

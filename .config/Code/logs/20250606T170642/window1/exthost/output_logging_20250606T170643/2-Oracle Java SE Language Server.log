@@ -308,3 +308,9 @@ org.netbeans.api.debugger                          1.82                         
 -------------------------------------------------- -------------------------------------- ---------
 [2025-06-06T11:36:48.750Z] [INFO]: Language Client: Ready
 [2025-06-06T11:36:49.235Z] [INFO]: Project runtime JDK unset, defaults to NBLS JDK
+[Error - 23:21:34] read ECONNRESET
+[Error - 23:21:34] read ECONNRESET
+[Error - 23:21:34] Connection to server got closed. Server will not be restarted.
+[Error - 23:21:34] Stopping server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 

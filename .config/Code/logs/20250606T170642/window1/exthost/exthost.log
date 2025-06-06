@@ -99,3 +99,28 @@
 2025-06-06 21:35:00.808 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
 2025-06-06 21:35:16.993 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
 2025-06-06 21:35:16.993 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/hello-world/hash-freq.cpp.git'
+2025-06-06 23:21:33.546 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-06 23:21:33.874 [error] Error: Channel has been closed
+	at s (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+	at Object.appendLine (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:2570)
+	at R.logOutputMessage (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:290791)
+	at R.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:290524)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514797)
+	at ChildProcess.emit (node:events:524:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-06 23:21:34.088 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:1167:27)
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1586:35)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1155:34)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/node/main.js:180:22)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1142:18)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:314:26)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at StreamMessageWriter.fireClose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:42:27)
+	at Socket.<anonymous> (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:74:42)
+	at Socket.emit (node:events:536:35)
+	at TCP.<anonymous> (node:net:343:12)
+2025-06-06 23:21:34.088 [info] Extension host with pid 31531 exiting with code 0
