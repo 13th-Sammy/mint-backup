@@ -1585,3 +1585,10 @@ gg
 nano .bashrc 
 gg
 nano .bashrc 
+ncdu 
+gc
+gp
+nano .bashrc 
+cat .gitignore 
+git status
+nano .gitignore 

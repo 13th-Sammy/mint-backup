@@ -1,0 +1,7 @@
+2025-06-06 13:13:01.606 [info] Started local extension host with pid 4840.
+2025-06-06 13:13:01.653 [info] ComputeTargetPlatform: linux-x64
+2025-06-06 13:13:01.882 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-06 13:13:01.883 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-06 13:13:01.883 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-06 13:13:02.325 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-06 13:13:04.267 [info] [perf] Render performance baseline is 18ms

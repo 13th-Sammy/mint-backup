@@ -1,0 +1,27 @@
+2025-06-06 13:11:39.594 [info] [main] Log level: Info
+2025-06-06 13:11:39.595 [info] [main] Validating found git in: "git"
+2025-06-06 13:11:39.595 [info] [main] Using git "2.43.0" from "git"
+2025-06-06 13:11:39.595 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-06 13:11:39.595 [info] > git rev-parse --show-toplevel [14ms]
+2025-06-06 13:11:39.595 [info] > git rev-parse --git-dir --git-common-dir [37ms]
+2025-06-06 13:11:39.595 [info] [Model][openRepository] Opened repository (path): /home/sammy/Desktop/temp/hello-world
+2025-06-06 13:11:39.595 [info] [Model][openRepository] Opened repository (real path): /home/sammy/Desktop/temp/hello-world
+2025-06-06 13:11:39.596 [info] > git rev-parse --show-toplevel [25ms]
+2025-06-06 13:11:39.597 [info] > git config --get commit.template [32ms]
+2025-06-06 13:11:39.649 [info] > git rev-parse --show-toplevel [33ms]
+2025-06-06 13:11:39.652 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-06 13:11:39.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [32ms]
+2025-06-06 13:11:39.714 [info] > git status -z -uall [22ms]
+2025-06-06 13:11:39.745 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [46ms]
+2025-06-06 13:11:39.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [30ms]
+2025-06-06 13:11:39.856 [info] > git config --get --local branch.b1.vscode-merge-base [62ms]
+2025-06-06 13:11:39.862 [info] > git config --get commit.template [75ms]
+2025-06-06 13:11:39.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [70ms]
+2025-06-06 13:11:40.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [105ms]
+2025-06-06 13:11:40.237 [info] > git status -z -uall [101ms]
+2025-06-06 13:11:40.238 [info] > git check-ignore -v -z --stdin [86ms]
+2025-06-06 13:11:40.239 [info] > git show --textconv :JavaRandom.java [70ms]
+2025-06-06 13:11:40.239 [info] > git ls-files --stage -- JavaRandom.java [62ms]
+2025-06-06 13:11:40.247 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [103ms]
+2025-06-06 13:11:40.256 [info] > git cat-file -s c614790054b08ddef6a9e1c8ea1bfd659657ebe2 [10ms]
+2025-06-06 13:11:40.347 [info] > git blame --root --incremental 76688012fcc793e0c6ed497003022d12a0331a7a -- JavaRandom.java [7ms]

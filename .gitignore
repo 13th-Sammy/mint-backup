@@ -16,4 +16,5 @@ VirtualBox VMs/
 .config/Code/User/workspaceStorage/
 .config/Code/User/globalStorage
 .config/Code/CachedData/
+.config/Code/Cache/
 .ssh/id_ed25519
