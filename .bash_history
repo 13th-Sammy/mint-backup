@@ -1592,3 +1592,7 @@ nano .bashrc
 cat .gitignore 
 git status
 nano .gitignore 
+git config --global user.email 213174535+13th-Sammy@users.noreply.github.com
+git config --list
+ls -la
+ncdu
