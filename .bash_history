@@ -1578,3 +1578,10 @@ gg
 shutdown now
 git status
 gg
+nano .gitignore 
+gg
+nano .gitignore 
+gg
+nano .bashrc 
+gg
+nano .bashrc 
