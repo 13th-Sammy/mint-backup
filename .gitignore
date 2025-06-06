@@ -1,5 +1,6 @@
 .cache/
 .ssh/
+.cert/
 Desktop/
 Documents/
 Downloads/
