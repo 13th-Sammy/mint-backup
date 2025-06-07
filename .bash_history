@@ -1695,3 +1695,92 @@ gp
 reboot
 gc
 gp
+sudo apt update && sudo apt upgrade
+gc
+gp
+rm binarySearch
+gc
+touch bsCount.cpp
+rm bsCount
+gc
+touch sorting
+rm sorting
+touch sorting.cpp
+
+gcc sorting.cpp 
+g++ sorting.cpp 
+./a.out 
+rm -rf a.out 
+gc
+g++ sorting.cpp 
+./a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+g++ sorting.cpp 
+./a.out 
+g++ sorting.cpp 
+./a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+gc
+touch mergeSort
+g++ sorting.cpp 
+./a.out 
+rm -rf a.out 
+gc
+g++ mergeSort 
+mv mergeSort mergeSort.cpp
+g++ mergeSort 
+g++ mergeSort.cpp 
+./a.out 
+rm a.out 
+g++ mergeSort.cpp 
+./a.out 
+g++ mergeSort.cpp 
+./a.out 
+g++ mergeSort.cpp 
+./a.out 
+g++ mergeSort.cpp 
+./a.out 
+rm a.out 
+g++ mergeSort.cpp 
+./a.out 
+rm a.out 
+git status
+gc
+git checkout main
+git merge b1
+git merge b1 --no-ff
+git diff b1
+gp
+git checkout b1
+git diff main
