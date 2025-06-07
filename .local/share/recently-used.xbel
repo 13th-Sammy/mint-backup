@@ -23,16 +23,6 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/student.cpp" added="2025-05-29T20:22:28.860968Z" modified="2025-05-29T20:22:28.860977Z" visited="2025-05-29T20:22:28.860970Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-29T20:22:28.860972Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/sammy/Desktop/temp/hello-world/inheritance.cpp" added="2025-05-30T11:04:30.656881Z" modified="2025-05-30T11:04:30.656890Z" visited="2025-05-30T11:04:30.656883Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -356,6 +346,16 @@
         <mime:mime-type type="text/x-c++src"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-06-06T11:47:24.052676Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/binarySearch.cpp" added="2025-06-07T09:29:04.916150Z" modified="2025-06-07T09:29:04.916158Z" visited="2025-06-07T09:29:04.916151Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-06-07T09:29:04.916153Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

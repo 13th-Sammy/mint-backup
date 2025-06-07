@@ -1693,3 +1693,5 @@ git branch -a
 gc
 gp
 reboot
+gc
+gp

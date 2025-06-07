@@ -1,41 +1,21 @@
-00:00:00.270756 VirtualBox GUI VM Selector Window 7.0.16_Ubuntu r162802 linux.amd64 (Aug 25 2024 22:41:46) release log
-00:00:00.270757 Log opened 2025-06-06T18:01:14.426876000Z
-00:00:00.270758 Build Type: release
-00:00:00.270761 OS Product: Linux
-00:00:00.270762 OS Release: 6.8.0-60-generic
-00:00:00.270762 OS Version: #63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025
-00:00:00.270782 DMI Product Name: HP Laptop 15s-du3xxx
-00:00:00.270786 DMI Product Version: Type1ProductConfigId
-00:00:00.270791 Firmware type: UEFI
-00:00:00.272065 Secure Boot: Disabled
-00:00:00.272112 Host RAM: 7696MB (7.5GB) total, 6204MB (6.0GB) available
-00:00:00.272116 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.272116 Process ID: 103493
-00:00:00.272116 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.272154 Qt version: 5.15.13
-00:00:00.272600 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
-00:00:00.282256 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.714744 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1040
-00:00:00.737784 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:06.577027 GUI: Updating snapshot tree after RESTORING snapshot with MachineID={{c15d9908-f8ed-44a1-a437-fd24a2c46af7}}, SnapshotID={{79033e95-b332-4d45-b32f-813c7311b8a3}}...
-00:00:06.588553 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:06.616136 GUI: Snapshot tree update successful!
-00:00:06.620755 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:12.310725 GUI: Updating snapshot tree after RESTORING snapshot with MachineID={{c15d9908-f8ed-44a1-a437-fd24a2c46af7}}, SnapshotID={{79033e95-b332-4d45-b32f-813c7311b8a3}}...
-00:00:12.323068 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:12.349936 GUI: Snapshot tree update successful!
-00:00:12.354795 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:01:20.504258 GUI: Updating snapshot tree after RESTORING snapshot with MachineID={{c15d9908-f8ed-44a1-a437-fd24a2c46af7}}, SnapshotID={{79033e95-b332-4d45-b32f-813c7311b8a3}}...
-00:01:20.517362 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:01:20.545593 GUI: Snapshot tree update successful!
-00:01:20.551904 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:01:28.417109 GUI: Updating snapshot tree after RESTORING snapshot with MachineID={{c15d9908-f8ed-44a1-a437-fd24a2c46af7}}, SnapshotID={{79033e95-b332-4d45-b32f-813c7311b8a3}}...
-00:01:28.428821 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:01:28.455391 GUI: Snapshot tree update successful!
-00:01:28.460080 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:01:32.242713 GUI: Updating snapshot tree after RESTORING snapshot with MachineID={{c15d9908-f8ed-44a1-a437-fd24a2c46af7}}, SnapshotID={{79033e95-b332-4d45-b32f-813c7311b8a3}}...
-00:01:32.255068 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:01:32.281826 GUI: Snapshot tree update successful!
-00:01:32.287082 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:01:38.539301 GUI: UICommon: Handling aboutToQuit request..
-00:01:38.984356 GUI: UICommon: aboutToQuit request handled!
+00:00:00.299132 VirtualBox GUI VM Selector Window 7.0.16_Ubuntu r162802 linux.amd64 (Aug 25 2024 22:41:46) release log
+00:00:00.299134 Log opened 2025-06-07T10:42:10.435355000Z
+00:00:00.299134 Build Type: release
+00:00:00.299137 OS Product: Linux
+00:00:00.299138 OS Release: 6.8.0-60-generic
+00:00:00.299138 OS Version: #63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025
+00:00:00.299159 DMI Product Name: HP Laptop 15s-du3xxx
+00:00:00.299163 DMI Product Version: Type1ProductConfigId
+00:00:00.299168 Firmware type: UEFI
+00:00:00.300581 Secure Boot: Disabled
+00:00:00.300638 Host RAM: 7696MB (7.5GB) total, 4423MB (4.3GB) available
+00:00:00.300643 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.300643 Process ID: 7044
+00:00:00.300644 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.300688 Qt version: 5.15.13
+00:00:00.301248 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.315240 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.874082 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1040
+00:00:00.897592 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:03.489317 GUI: UICommon: Handling aboutToQuit request..
+00:00:04.320617 GUI: UICommon: aboutToQuit request handled!

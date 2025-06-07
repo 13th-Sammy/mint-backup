@@ -1,27 +1,12 @@
 {
   "updates": {
-    "firefox": {
-      "type": "security",
-      "since": "2025.06.04",
-      "days": 3
-    },
-    "thunderbird": {
-      "type": "security",
-      "since": "2025.06.04",
-      "days": 3
-    },
-    "libvpx": {
-      "type": "security",
-      "since": "2025.06.05",
-      "days": 2
-    },
-    "code": {
+    "rdma-core": {
       "type": "package",
-      "since": "2025.06.05",
-      "days": 2
+      "since": "2025.06.07",
+      "days": 1
     }
   },
   "version": 1,
-  "checked": "2025.06.06",
+  "checked": "2025.06.07",
   "notified": "2024.10.27"
 }
