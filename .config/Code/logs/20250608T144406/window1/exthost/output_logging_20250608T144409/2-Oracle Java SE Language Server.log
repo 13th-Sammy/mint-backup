@@ -308,3 +308,11 @@ org.netbeans.api.debugger                          1.82                         
 -------------------------------------------------- -------------------------------------- ---------
 [2025-06-08T09:14:16.831Z] [INFO]: Language Client: Ready
 [2025-06-08T09:14:17.517Z] [INFO]: Project runtime JDK unset, defaults to NBLS JDK
+[Error - 17:28:14] read ECONNRESET
+[Error - 17:28:14] read ECONNRESET
+[2025-06-08T11:58:14.086Z] [INFO]: LSP server 3728 terminated with null
+[2025-06-08T11:58:14.086Z] [INFO]: Exit code null
+[Error - 17:28:14] Connection to server got closed. Server will not be restarted.
+[Error - 17:28:14] Stopping server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 

@@ -1787,3 +1787,91 @@ git diff main
 git status
 gc && gp
 poweroff
+gcc sorting.cpp 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+gc
+touch quickSort.cpp
+g++ quickSort.cpp 
+./a.out 
+g++ quickSort.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+gc
+git checkout main
+git merge b1
+git merge b1 --no-ff
+gp
+git diff main && git diff b1
+git checkout b1
+g++ sorting.cpp 
+./a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+g++ sorting.cpp 
+./a.out 
+rm a.out 
+gc
+git checkout main
+gc && gp
+git merge b1
+git merge b1 --no-ff
+git diff b1
+git diff main
+git diff origin/main
+gc && gp
+gp
+git diff origin/main
+git diff b1
+git checkout b1
+cd arrayProblems/
+touch largestElm
+mv largestElm largestElm.cpp
+cd arrayProblems/
+rm largestElm
+gc
+touch slargest.cpp
+cd arrayProblems/
+rm slargest
+gc
+touch isSorted.cpp
+cd arrayProblems/
+rm isSorted
+gc
+touch remDupSorted
+mv remDupSorted remDupSorted.cpp
+cd arrayProblems/
+rm remDupSorted
+gc
+touch zeroEnd.cpp
+cd arrayProblems/
+rm zeroEnd
+gc
+rm zeroEnd
+gc
+touch rotateRK.cpp
+cd arrayProblems/
+rm rotateRK
+gc
+touch missingNo
+mv missingNo missingNo.cpp
+cd arrayProblems/
+rm missingNo
+gc
+touch maxOne.cpp
+cd arrayProblems/
+rm maxOne
+gc
+git checkout main
+git merge b1 --no-ff
+git diff b1
+gp
+git diff main
+git diff origin/main
+git diff b1
+git checkout b1

@@ -1,0 +1,42 @@
+2025-06-08 17:28:17.905 [info] Started local extension host with pid 8002.
+2025-06-08 17:28:18.043 [info] ComputeTargetPlatform: linux-x64
+2025-06-08 17:28:18.784 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-08 17:28:18.784 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-08 17:28:18.785 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-08 17:28:20.468 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-08 17:28:21.381 [info] [perf] Render performance baseline is 44ms
+2025-06-08 17:30:55.206 [error] Cannot assign to read only property 'configurations' of object '#<Object>': TypeError: Cannot assign to read only property 'configurations' of object '#<Object>'
+    at yat.writeConfiguration (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2251:264)
+    at Wne.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2250:15394)
+2025-06-08 17:47:05.955 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Jd.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at gne.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at PLe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at vki.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:6852)
+    at uae.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:11190)
+    at LFe.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-08 20:14:38.968 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Jd.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at gne.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at PLe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at vki.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:6852)
+    at uae.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:11190)
+    at LFe.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-08 20:24:32.394 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Jd.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at gne.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at PLe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at vki.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:6852)
+    at uae.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:11190)
+    at LFe.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-08 21:05:04.601 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Jd.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at gne.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at PLe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at vki.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:6852)
+    at uae.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:11190)
+    at LFe.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992

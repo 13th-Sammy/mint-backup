@@ -18,3 +18,5 @@
 2025-06-08 14:44:16.870 [info] Added views:foundProjects in workbench.view.explorer
 2025-06-08 14:44:16.887 [info] Added views:workbench.view.testing in workbench.view.extension.test
 2025-06-08 14:44:16.948 [info] Added views:run-config in workbench.view.explorer
+2025-06-08 17:28:13.693 [info] Removed views:workbench.scm.history from workbench.view.scm
+2025-06-08 17:28:13.697 [info] Removed views:workbench.view.testing from workbench.view.extension.test
