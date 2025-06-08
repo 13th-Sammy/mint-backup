@@ -1,12 +1,6 @@
 {
-  "updates": {
-    "rdma-core": {
-      "type": "package",
-      "since": "2025.06.07",
-      "days": 1
-    }
-  },
+  "updates": {},
   "version": 1,
-  "checked": "2025.06.07",
+  "checked": "2025.06.08",
   "notified": "2024.10.27"
 }

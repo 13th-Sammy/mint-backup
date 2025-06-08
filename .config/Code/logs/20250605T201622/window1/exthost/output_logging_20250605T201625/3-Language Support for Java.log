@@ -1,4 +1,0 @@
-Jun 05, 2025 8:16:29 PM org.apache.aries.spifly.BaseActivator log
-INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
-[Info  - 20:16:35] 05-Jun-2025, 8:16:33 pm class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
-null

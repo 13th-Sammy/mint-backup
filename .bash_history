@@ -1784,3 +1784,6 @@ git diff b1
 gp
 git checkout b1
 git diff main
+git status
+gc && gp
+poweroff

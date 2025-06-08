@@ -1,0 +1,14 @@
+2025-06-08 14:44:06.978 [info] update#setState idle
+2025-06-08 14:44:14.172 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3 - error undefined net::ERR_ADDRESS_UNREACHABLE
+2025-06-08 14:44:14.173 [error] update#isLatestVersion(): failed to check for updates
+2025-06-08 14:44:14.173 [error] Error: net::ERR_ADDRESS_UNREACHABLE
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118774)
+    at SimpleURLLoaderWrapper.emit (node:events:524:28)
+2025-06-08 14:44:36.938 [info] update#setState checking for updates
+2025-06-08 14:44:40.021 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3?bg=true - error undefined net::ERR_ADDRESS_UNREACHABLE
+2025-06-08 14:44:40.029 [error] Error: net::ERR_ADDRESS_UNREACHABLE
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118774)
+    at SimpleURLLoaderWrapper.emit (node:events:524:28)
+2025-06-08 14:44:40.029 [info] update#setState idle
+2025-06-08 15:44:37.494 [info] update#setState checking for updates
+2025-06-08 15:44:38.442 [info] update#setState idle
