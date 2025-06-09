@@ -1,0 +1,9 @@
+game:
+  arch: win64
+  exe: /media/sammy/Vault/Games/celeste/Celeste/Celeste.exe
+  prefix: /media/sammy/Vault/Games/celeste
+  working_dir: /media/sammy/Vault/Games/celeste/Celeste
+system:
+  game_path: /media/sammy/Vault/Games/celeste
+  locale: ''
+wine: {}

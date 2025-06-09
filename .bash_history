@@ -1875,3 +1875,26 @@ git diff main
 git diff origin/main
 git diff b1
 git checkout b1
+gc
+gp
+gc
+gp
+touch subarSumK.cpp
+cd arrayProblems/
+rm subarSumK
+gc
+rm subarSumK
+gc
+touch 2Sum.cpp
+cd arrayProblems/
+rm 2Sum
+rm 2S
+rm 2Sum
+gc
+touch 0s1s2s.cpp
+rm 0s
+cd arrayProblems/
+rm 0s1s2s
+touch maxSubarSum.cpp
+gc
+ls ./ -l 

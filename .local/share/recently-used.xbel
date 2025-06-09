@@ -23,36 +23,6 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/inheritance.cpp" added="2025-05-30T11:04:30.656881Z" modified="2025-05-30T11:04:30.656890Z" visited="2025-05-30T11:04:30.656883Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-30T11:04:30.656886Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/inh.cpp" added="2025-05-30T12:28:50.961506Z" modified="2025-05-30T12:28:50.961514Z" visited="2025-05-30T12:28:50.961507Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-30T12:28:50.961510Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/vehicle.cpp" added="2025-05-30T12:35:52.334846Z" modified="2025-05-30T12:35:52.334856Z" visited="2025-05-30T12:35:52.334848Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-30T12:35:52.334851Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/sammy/Desktop/temp/flappy-bird" added="2025-05-30T15:04:36.914442Z" modified="2025-06-03T14:55:21.184823Z" visited="2025-05-30T15:04:36.914443Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -74,144 +44,6 @@
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-30T15:30:04.628892Z" count="1"/>
           <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-06-04T13:24:07.649472Z" count="3"/>
           <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-04T13:24:08.230069Z" count="3"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Downloads/bird.png" added="2025-05-30T16:32:16.621914Z" modified="2025-05-30T17:03:54.000498Z" visited="2025-05-30T16:32:16.621916Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-30T17:03:54.000495Z" count="3"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Downloads/yellowbird-midflap.png" added="2025-05-30T17:00:17.711751Z" modified="2025-05-30T17:00:17.711756Z" visited="2025-05-30T17:00:17.711752Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-30T17:00:17.711754Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/flappy-bird/assets/bird.png" added="2025-05-30T17:03:07.290166Z" modified="2025-05-30T17:03:07.290178Z" visited="2025-05-30T17:03:07.290167Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-30T17:03:07.290171Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Downloads/yellowbird-upflap.png" added="2025-05-30T18:08:25.360881Z" modified="2025-05-30T18:08:41.188210Z" visited="2025-05-30T18:08:25.360882Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-30T18:08:41.188207Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Downloads/yellowbird-upflap(1).png" added="2025-05-30T18:08:59.370100Z" modified="2025-05-30T18:08:59.370110Z" visited="2025-05-30T18:08:59.370102Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-30T18:08:59.370106Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/flappy-bird/assets/background.png" added="2025-05-30T18:46:23.057908Z" modified="2025-05-30T18:59:33.236073Z" visited="2025-05-30T18:46:23.057910Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-30T18:59:33.236065Z" count="3"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Downloads/pipe-green.png" added="2025-05-31T07:51:37.373563Z" modified="2025-05-31T07:51:37.373567Z" visited="2025-05-31T07:51:37.373564Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-31T07:51:37.373565Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/flappy-bird/assets/pipeb.png" added="2025-05-31T12:47:23.142900Z" modified="2025-05-31T12:47:23.142913Z" visited="2025-05-31T12:47:23.142901Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-31T12:47:23.142902Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Downloads/pipeb.png" added="2025-05-31T12:48:26.579826Z" modified="2025-05-31T12:48:26.579831Z" visited="2025-05-31T12:48:26.579827Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-31T12:48:26.579828Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/flappy-bird/assets/background.jpg" added="2025-05-31T12:51:42.298860Z" modified="2025-05-31T12:51:42.658023Z" visited="2025-05-31T12:51:42.298862Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/jpeg"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-31T12:51:42.658017Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/linked-list.cpp" added="2025-05-31T14:52:41.187469Z" modified="2025-05-31T14:52:41.187477Z" visited="2025-05-31T14:52:41.187470Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-05-31T14:52:41.187473Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/flappy-bird/README.md" added="2025-05-31T15:57:11.507069Z" modified="2025-05-31T15:57:11.507073Z" visited="2025-05-31T15:57:11.507070Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>xed</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-31T15:57:11.507072Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/sammy/Desktop/temp/hello-world/program.java" added="2025-06-01T15:47:49.979018Z" modified="2025-06-01T15:56:28.403353Z" visited="2025-06-01T15:47:49.979019Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>xed</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-06-01T15:47:49.979023Z" count="1"/>
-          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-06-01T15:56:27.845416Z" count="1"/>
-          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T15:56:28.403351Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -356,6 +188,123 @@
         <mime:mime-type type="text/x-c++src"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-06-07T09:29:04.916153Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sammy/Downloads/Celeste-SteamRIP.com.rar" added="2025-06-09T16:57:15.435435Z" modified="2025-06-09T16:57:26.437297Z" visited="2025-06-09T16:57:15.435436Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-06-09T16:57:15.435439Z" count="1"/>
+          <bookmark:application name="nemo" exec="&apos;file-roller %U&apos;" modified="2025-06-09T16:57:25.985804Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2025-06-09T16:57:26.437296Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sammy/.cache/.fr-K20472/Read_Me_Instructions.txt" added="2025-06-09T16:57:34.198023Z" modified="2025-06-09T16:57:34.198027Z" visited="2025-06-09T16:57:34.198024Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-09T16:57:34.198025Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault/Celeste" added="2025-06-09T16:58:35.820883Z" modified="2025-06-09T17:08:32.463146Z" visited="2025-06-09T16:58:35.820883Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2025-06-09T16:58:35.820884Z" count="1"/>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2025-06-09T17:08:32.463140Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault" added="2025-06-09T16:59:07.918713Z" modified="2025-06-09T16:59:07.918721Z" visited="2025-06-09T16:59:07.918714Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo-desktop" exec="&apos;nemo %U&apos;" modified="2025-06-09T16:59:07.918718Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault/Celeste/Celeste/Celeste.exe" added="2025-06-09T16:59:59.208786Z" modified="2025-06-09T17:01:37.614463Z" visited="2025-06-09T16:59:59.208787Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2025-06-09T17:01:37.614462Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault/Celeste/Celeste" added="2025-06-09T17:00:20.787951Z" modified="2025-06-09T17:02:02.642044Z" visited="2025-06-09T17:00:20.787952Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2025-06-09T17:02:02.642043Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault/Celeste/CelesteLogo.webp" added="2025-06-09T17:06:55.199593Z" modified="2025-06-09T17:07:39.443048Z" visited="2025-06-09T17:06:55.199594Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-06-09T17:06:55.502116Z" count="2"/>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2025-06-09T17:07:39.443046Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault/Games/celeste/CelesteLogo.webp" added="2025-06-09T17:50:36.256284Z" modified="2025-06-09T17:50:58.488964Z" visited="2025-06-09T17:50:36.256285Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2025-06-09T17:50:58.488963Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault/Games/celeste/Celeste/Celeste.exe" added="2025-06-09T17:51:20.867667Z" modified="2025-06-09T17:51:20.867671Z" visited="2025-06-09T17:51:20.867668Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2025-06-09T17:51:20.867669Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault/Games/celeste/Celeste" added="2025-06-09T17:51:40.286111Z" modified="2025-06-09T17:51:40.286116Z" visited="2025-06-09T17:51:40.286112Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2025-06-09T17:51:40.286114Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/sammy/Vault/Games/celeste" added="2025-06-09T17:51:54.939088Z" modified="2025-06-09T17:52:08.523260Z" visited="2025-06-09T17:51:54.939089Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2025-06-09T17:52:08.523257Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

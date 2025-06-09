@@ -1,0 +1,30 @@
+2025-06-09 22:22:34.921 [info] [main] Log level: Info
+2025-06-09 22:22:34.921 [info] [main] Validating found git in: "git"
+2025-06-09 22:22:34.921 [info] [main] Using git "2.43.0" from "git"
+2025-06-09 22:22:34.921 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-09 22:22:34.921 [info] > git rev-parse --show-toplevel [14ms]
+2025-06-09 22:22:34.921 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-06-09 22:22:34.921 [info] [Model][openRepository] Opened repository (path): /home/sammy/Desktop/temp/hello-world
+2025-06-09 22:22:34.921 [info] [Model][openRepository] Opened repository (real path): /home/sammy/Desktop/temp/hello-world
+2025-06-09 22:22:34.924 [info] > git rev-parse --show-toplevel [239ms]
+2025-06-09 22:22:34.924 [info] > git config --get commit.template [248ms]
+2025-06-09 22:22:35.004 [info] > git rev-parse --show-toplevel [48ms]
+2025-06-09 22:22:35.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [61ms]
+2025-06-09 22:22:35.106 [info] > git status -z -uall [43ms]
+2025-06-09 22:22:35.107 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [36ms]
+2025-06-09 22:22:35.131 [info] > git rev-parse --show-toplevel [75ms]
+2025-06-09 22:22:35.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [41ms]
+2025-06-09 22:22:35.188 [info] > git config --get --local branch.b1.vscode-merge-base [14ms]
+2025-06-09 22:22:35.198 [info] > git rev-parse --show-toplevel [48ms]
+2025-06-09 22:22:35.199 [info] > git config --get commit.template [57ms]
+2025-06-09 22:22:35.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [13ms]
+2025-06-09 22:22:35.254 [info] > git rev-parse --show-toplevel [44ms]
+2025-06-09 22:22:35.256 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-09 22:22:35.283 [info] > git show --textconv :arrayProblems/maxSubarSum.cpp [16ms]
+2025-06-09 22:22:35.284 [info] > git ls-files --stage -- arrayProblems/maxSubarSum.cpp [6ms]
+2025-06-09 22:22:35.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [43ms]
+2025-06-09 22:22:35.370 [info] > git status -z -uall [67ms]
+2025-06-09 22:22:35.379 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [67ms]
+2025-06-09 22:22:35.383 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [91ms]
+2025-06-09 22:22:35.398 [info] > git check-ignore -v -z --stdin [6ms]
+2025-06-09 22:22:35.475 [info] > git blame --root --incremental c11953796eb572e630bbacbee4505a947e8b6b8d -- arrayProblems/maxSubarSum.cpp [3ms]

@@ -1,0 +1,15 @@
+2025-06-09 14:18:15.274 [info] Started local extension host with pid 3144.
+2025-06-09 14:18:15.380 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 14:18:15.869 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-09 14:18:15.869 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-09 14:18:15.869 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-09 14:18:17.056 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-09 14:18:18.031 [info] [perf] Render performance baseline is 22ms
+2025-06-09 17:23:58.912 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Jd.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at gne.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at PLe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at vki.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:6852)
+    at uae.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:11190)
+    at LFe.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992

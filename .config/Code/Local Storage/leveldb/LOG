@@ -1,3 +1,3 @@
-2025/06/08-17:28:16.766 1ed7 Reusing MANIFEST /home/sammy/.config/Code/Local Storage/leveldb/MANIFEST-000001
-2025/06/08-17:28:16.770 1ed7 Recovering log #3
-2025/06/08-17:28:16.770 1ed7 Reusing old log /home/sammy/.config/Code/Local Storage/leveldb/000003.log 
+2025/06/09-22:22:31.468 4496 Reusing MANIFEST /home/sammy/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2025/06/09-22:22:31.476 4496 Recovering log #3
+2025/06/09-22:22:31.476 4496 Reusing old log /home/sammy/.config/Code/Local Storage/leveldb/000003.log 
