@@ -164,6 +164,7 @@
         ],
         "value": [
             "nemo.desktop",
+            "code.desktop",
             "firefox.desktop",
             "org.gnome.Terminal.desktop",
             "virtualbox.desktop",

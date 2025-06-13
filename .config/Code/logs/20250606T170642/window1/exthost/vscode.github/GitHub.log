@@ -1,4 +1,0 @@
-2025-06-06 17:06:45.643 [info] Log level: Info
-2025-06-06 17:12:06.611 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for 13th-Sammy/hello-world/76688012fcc793e0c6ed497003022d12a0331a7a: TypeError: Cannot read properties of null (reading 'author')
-2025-06-06 18:48:02.474 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for 13th-Sammy/hello-world/76688012fcc793e0c6ed497003022d12a0331a7a: TypeError: Cannot read properties of null (reading 'author')
-2025-06-06 18:51:40.393 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for 13th-Sammy/hello-world/76688012fcc793e0c6ed497003022d12a0331a7a: TypeError: Cannot read properties of null (reading 'author')

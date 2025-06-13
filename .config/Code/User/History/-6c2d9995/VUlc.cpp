@@ -1,0 +1,33 @@
+#include<iostream>
+
+int main()
+{
+    using namespace std;
+
+    int arr[]={1,2,-3,2,4,-4,4,2,5,6,4,-2,1,1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+
+    int currSum=arr[0], maxSum=arr[0];
+    int start=0, ans;
+    for (int i=1; i<n; i++)
+    {
+        if(arr[i]>currSum+arr[i])
+        {
+            currSum=arr[i];
+            start=i;
+        }
+        else
+            currSum+=arr[i];
+
+        if(currSum>maxSum)
+        {
+            maxSum=currSum;
+            ans=i;
+        }
+    }
+
+    for(int i=start; i<=ans; i++)
+        cout << arr[i] << " ";
+    
+    return 0;
+}

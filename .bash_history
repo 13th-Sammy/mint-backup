@@ -1,44 +1,3 @@
-sudo lsblk
-ncdu /
-sudo ncdu /
-sudo du /
-apt
-sudo apt update && sudo apt upgrade
-sudo su
-sudo apt install ncdu
-sudo ncdu /
-sudo su
-ls
-ls Desktop/
-ls
-ls Desktop/
-ls -la
-lsblk -help
-lsblk 
-clear
-sudo ncdu /
-ls
-ls -la
-sudo ncdu /
-sudo lsblk
-lsblk
-wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.4_all.deb
-ls
-mv protonvpn-stable-release_1.0.4_all.deb Downloads/
-ls
-cd Downloads/
-ls
-sudo dpkg -i protonvpn-stable-release_1.0.4_all.deb 
-sudo apt update && sudo apt upgrade
-sudo apt install proton-vpn-gnome-desktop
-ls
-sudo apt update && sudo apt upgrade
-sudo ncdu /
-sudo rm -rf *
-cd ..
-ls
-sudo rm -rf timeshift/
-ls
 lsblk
 ls -la
 cd ..
@@ -1898,3 +1857,144 @@ rm 0s1s2s
 touch maxSubarSum.cpp
 gc
 ls ./ -l 
+gc
+gp
+cd arrayProblems/
+mv maxSubarPdt maxSubarPdt.cpp
+rm maxSubarSum
+cd arrayProblems/
+rm maxSubarSum
+gc
+touch maxSubarPdt
+rm maxSubarSum
+g++ maxSubarPdt.cpp 
+./a.out 
+rm a.out 
+gc
+clear
+touch majorityEl.cpp
+cd arrayProblems/
+rm majorityEl
+gc
+git checkout main
+git merge b1
+git merge b1 -no-ff
+git merge b1 --no-ff
+gp
+git diff origin/main && git diff b1
+git checkout b1
+cd ..
+mkdir stringProblems
+cd stringProblems/
+touch largestOdd.cpp
+cd arrayProblems/
+cd ..
+cd stringProblems/
+rm largestOdd
+gc
+rm largestOdd
+gc
+touch longestCommonPrefix.cpp
+cd stringProblems/
+rm anagram
+gc
+touch longestSubStrNoRpt.cpp
+cd stringProblems/
+rm longestCommonPrefix
+gc
+touch anagram.cpp
+cd stringProblems/
+rm longestSubStrNoRpt
+gc
+rm longestSubStrNoRpt
+gc
+rm longestSubStrNoRpt
+gc
+touch union.cpp
+cd arrayProblems/
+rm union
+gc
+rm union
+gc
+touch intersection.cpp
+rm in
+cd arrayProblems/
+rm intersection
+gc
+cd ../stringProblems/
+clear
+touch revWords.cpp
+cd stringProblems/
+rm revWords
+gc
+touch longestPalSubstr.cpp
+cd stringProblems/
+rm longestPalSubstr longestPalSubstr.cpp
+touch isomorphic
+mv isomorphic isomorphic.cpp
+cd stringProblems/
+rm isomorphic
+gc
+rm isomorphic
+gc
+git checkout main
+git merge b1 --no-ff
+gp
+git diff origin/main && git diff b1
+git checkout b1
+clear
+gc
+cd ..
+gc
+cd stringProblems/
+gc
+cd ../stringProblems/
+clear
+touch intToRoman.cpp
+cd stringProblems/
+git status
+rm intToRoman
+rm arrayProblems/maxSubarSum
+gc
+touch romanToInt
+rm romanToInt 
+cd stringProblems/
+clear
+touch romanToInt.cpp
+cd stringProblems/
+rm romanToInt
+gc
+mkdir LinkedLists
+ls
+rm LinkedLists/
+rm LinkedLists/ -r
+cd ..
+rm linked-list.cpp 
+git status
+mkdir LinkedLists
+gc
+cd LinkedLists/
+touch singlyLLL.cpp
+cd ..
+cd hello-world/
+ls -la
+git status
+cd LinkedLists/
+git status
+cd ..
+git rm linked-list.cpp 
+rm linked-list.cpp 
+rm LinkedLists/singlyLLL
+gc
+git status
+cd LinkedLists/
+ls
+rm singlyLLL
+gc
+rm singlyLLL
+gc
+clear
+cd ../LinkedLists/
+clear
+rm LinkedLists/singlyLLL
+gc
