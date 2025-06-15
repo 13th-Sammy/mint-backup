@@ -1,95 +1,3 @@
-lsblk
-ls -la
-cd ..
-ls -la
-ls Vault/
-lsblk
-htop
-sudo apt install htop
-htop
-lsblk
-rm -rf ./*
-sudo rm -rf ./*
-ls
-cd ..
-ls
-lsblk
-sudo apt update && sudo apt upgrade
-sudo apt install lutris mangohud
-lutris
-rm .cache/lutris/updates.json 
-sudo apt update && sudo apt upgrade
-ls -la
-sudo ncdu /
-sudo apt install libstrangle
-sudo apt update && sudo apt upgrade
-sudo apt install libstrangle
-sudo apt update && sudo apt upgrade
-reboot
-sudo systemctl stop thermald.service
-reboot
-sudo systemctl status thermald.service
-sudo systemctl unmask thermald.service
-sudo systemctl status thermald.service
-sudo systemctl start thermald.service
-sudo systemctl status thermald.service
-reboot]
-reboot
-sudo systemctl status thermald.service
-sudo systemctl enable thermald.service
-sudo systemctl status thermald.service
-reboot
-sudo systemctl status thermald.service
-ls
-ls -la
-sudo rm -rf 2025-05-20_18-48-25/
-ls
-ls Documents/
-ls Documents/ =a
-ls Documents/ -a
-dc Documents/
-cd Documents/
-ls
-exit
-sudo apt update && sudo apt upgrade
-git
-sudo apt install git
-ls
-cd Desktop/
-ls
-cd temp/
-ls
-ls -a
-mkdir Git-Hello-World
-ls
-cd Git-Hello-World/
-git init
-cd ..
-ls
-ls Git-Hello-World/
-ls Git-Hello-World/ -a
-ls Git-Hello-World/.git/
-rm -rf Git-Hello-World/
-ls
-ls -a
-man git push
-git config
-git config --global
-ls -a
-mkdir random-code
-ls
-nano helloworld.c
-gcc helloworld.c 
-nano helloworld.c
-gcc helloworld.c 
-ls
-ls -la
-mv a.out random-code/
-mv helloworld.c random-code/
-ls
-cd random-code/
-ls
-a.out
 ./a.out
 cd random-code/
 tree
@@ -1998,3 +1906,95 @@ cd ../LinkedLists/
 clear
 rm LinkedLists/singlyLLL
 gc
+sudo apt update && sudo apt upgrade
+gc
+gp
+git status
+gc
+gp
+cd LinkedLists/
+rm mergeSortedLL
+cd LinkedLists/
+rm mergeSortedLL
+gc
+touch rcReverseLL.cpp
+cd LinkedLists/
+rm rcReverseLL
+gc
+clear
+touch detectCycle.cpp
+cd LinkedLists/
+rm deleteMid
+gc
+touch reorderList.cpp
+touch LinkedLists/mergeSortLL.cpp
+cd LinkedLists/
+rm reorderList
+gc
+rm mergeSort.cpp 
+git restore mergeSort.cpp 
+git status
+cd LinkedLists/
+rm mergeSortLL
+gc
+git checkout main
+git merge b1 --no-ff
+gp
+git diff b1
+git diff origin/main 
+git checkout b1
+touch llIntersection.cpp
+cd LinkedLists/
+rm llIntersection
+gc
+git checkout main
+git merge b1
+git merge b1 --no-ff
+git diff b1
+gp
+git diff origin/main 
+git diff b1
+git checkout b1
+clear
+touch flattenDFS.cpp
+cd LinkedLists/
+rm flattenDFS
+gc
+touch doublyLLL.cpp
+cd LinkedLists/
+rm doublyLLL
+gc
+touch mergeSortDoubleLL.cpp
+rm doublyLLL
+gc
+rm doublyLLL
+gc
+git checkout main
+git merge b1
+git merge b1 --no-ff
+gp
+git diff b1 && git diff origin/main 
+git checkout b1
+cd LinkedLists/
+rm mergeSortDoubleLL
+gx
+gc
+cd LinkedLists/
+rm josephus
+gc
+rm josephus
+gc
+git checkout main
+git merge b1 --no-ff
+git diff b1
+gp
+git diff origin/main 
+git diff b1
+git checkout b1
+cd Li
+cd LinkedLists/
+rm circularLLL
+gc
+clear
+touch josephus.cpp
+touch circularLLL.cpp

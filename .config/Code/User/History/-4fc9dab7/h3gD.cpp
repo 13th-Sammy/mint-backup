@@ -1,0 +1,65 @@
+#include<iostream>
+
+class Node
+{
+    public:
+    int data;
+    Node* next;
+    Node(int d)
+    {
+        data=d;
+        next=nullptr;
+    }
+};
+
+void insertAtTail(Node*& head, int d)
+{
+    Node* newNode=new Node(d);
+
+    if(head==nullptr)
+    {
+        head=newNode;
+        return;
+    }
+
+    if(head->next==nullptr)
+    {
+        head->next=newNode;
+        newNode->next=head;
+        return;
+    }
+
+    Node* temp=head;
+    do
+        temp=temp->next;
+    while(temp->next!=head);
+
+    newNode->next=head;
+    temp->next=newNode;
+}
+
+void showList(Node* head)
+{
+    Node* temp=head;
+    do
+    {
+        std::cout << temp->data << ' ';
+        temp=temp->next;
+    } 
+    while (temp!=head);
+    std::cout << '\n';
+}
+
+int main()
+{
+    Node* head=new Node(5);
+    head->next=new Node(6);
+    head->next->next=new Node(7);
+    head->next->next->next=new Node(8);
+    head->next->next->next->next=head;
+    insertAtTail(head, 9);
+    
+    showList(head);
+    
+    return 0;
+}

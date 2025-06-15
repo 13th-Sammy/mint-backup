@@ -1,47 +1,6 @@
 {
-  "updates": {
-    "systemd": {
-      "type": "security",
-      "since": "2025.06.10",
-      "days": 4
-    },
-    "apport": {
-      "type": "security",
-      "since": "2025.06.10",
-      "days": 4
-    },
-    "amd64-microcode": {
-      "type": "security",
-      "since": "2025.06.10",
-      "days": 4
-    },
-    "openssh": {
-      "type": "package",
-      "since": "2025.06.11",
-      "days": 3
-    },
-    "linux-firmware": {
-      "type": "security",
-      "since": "2025.06.12",
-      "days": 2
-    },
-    "firefox": {
-      "type": "security",
-      "since": "2025.06.13",
-      "days": 1
-    },
-    "webkit2gtk": {
-      "type": "security",
-      "since": "2025.06.13",
-      "days": 1
-    },
-    "thunderbird": {
-      "type": "security",
-      "since": "2025.06.13",
-      "days": 1
-    }
-  },
+  "updates": {},
   "version": 1,
-  "checked": "2025.06.13",
+  "checked": "2025.06.15",
   "notified": "2024.10.27"
 }
