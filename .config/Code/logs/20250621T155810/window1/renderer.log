@@ -1,0 +1,69 @@
+2025-06-21 15:58:11.556 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-21 15:58:11.568 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-21 15:58:11.569 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-21 15:58:11.971 [info] Started local extension host with pid 3228.
+2025-06-21 15:58:12.141 [info] ComputeTargetPlatform: linux-x64
+2025-06-21 15:58:12.689 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-21 15:58:12.690 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-21 15:58:12.690 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-21 15:58:13.355 [error] [Extension Host] (node:3228) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-06-21 15:58:13.822 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-21 15:58:14.825 [info] [perf] Render performance baseline is 34ms
+2025-06-21 16:25:08.718 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at hf.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at Sre.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at VMe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at IDi.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:14668)
+    at ble.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:25461)
+    at z5e.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-21 16:34:06.736 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at hf.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at Sre.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at VMe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at IDi.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:14668)
+    at ble.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:25461)
+    at z5e.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-21 16:34:18.987 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at hf.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at Sre.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at VMe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at IDi.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:14668)
+    at ble.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:25461)
+    at z5e.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-21 16:53:52.309 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at hf.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at Sre.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at VMe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at IDi.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:14668)
+    at ble.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:25461)
+    at z5e.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-21 18:53:51.075 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at hf.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at Sre.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at VMe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at IDi.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:14668)
+    at ble.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:25461)
+    at z5e.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-21 18:55:17.808 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at hf.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at Sre.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at VMe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at IDi.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:14668)
+    at ble.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:25461)
+    at z5e.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-21 18:57:01.402 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at hf.getLineLength (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:4354)
+    at Sre.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:13488)
+    at VMe.reportIfInvalid (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:10836)
+    at IDi.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:14668)
+    at ble.setSemanticTokens (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:263:25461)
+    at z5e.u (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:26529)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:485:24992
+2025-06-21 19:07:56.384 [warning] Semantic token with invalid length detected at lineNumber 58, column 5

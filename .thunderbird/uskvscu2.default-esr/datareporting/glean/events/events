@@ -1,0 +1,4 @@
+{"timestamp":3888923,"category":"inappnotifications","name":"interaction","extra":{"notification_id":"Spring25","glean_timestamp":"1750419385855","active_this_session":"0"}}
+{"timestamp":3892359,"category":"mail","name":"ui_interaction","extra":{"source":"toolbox","id":"tab-close-button","glean_timestamp":"1750419389291"}}
+{"timestamp":3893788,"category":"mail","name":"ui_interaction","extra":{"id":"tab-close-button","source":"toolbox","glean_timestamp":"1750419390720"}}
+{"timestamp":3896887,"category":"mail","name":"ui_interaction","extra":{"glean_timestamp":"1750419393819","source":"toolbox","id":"messenger-window-close-button"}}

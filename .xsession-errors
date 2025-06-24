@@ -44,75 +44,72 @@ dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/
 dbus-update-activation-environment: setting LC_NUMERIC=en_IN
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
 discover_other_daemon: 1discover_other_daemon: 1discover_other_daemon: 1[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
-dbus-daemon[1899]: Activating service name='org.a11y.atspi.Registry' requested by ':1.5' (uid=1000 pid=1900 comm="/usr/bin/csd-clipboard" label="unconfined")
-dbus-daemon[1899]: Successfully activated service 'org.a11y.atspi.Registry'
+dbus-daemon[1980]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1981 comm="/usr/bin/csd-clipboard" label="unconfined")
+dbus-daemon[1980]: Successfully activated service 'org.a11y.atspi.Registry'
 [cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
-/usr/bin/cinnamon-launcher:56: DeprecationWarning: This process (pid=2044) is multi-threaded, use of fork() may lead to deadlocks in the child.
+/usr/bin/cinnamon-launcher:56: DeprecationWarning: This process (pid=2108) is multi-threaded, use of fork() may lead to deadlocks in the child.
   self.cinnamon_pid = os.fork()
-Gjs-Message: 15:08:19.634: Profiler is disabled. Not setting up signals.
-Gjs-Message: 15:08:19.766: JS LOG: About to start Cinnamon (X11 backend)
-Gjs-Message: 15:08:19.827: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 0 ms
-Gjs-Message: 15:08:19.829: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark-Purple/cinnamon/cinnamon.css
-Gjs-Message: 15:08:19.841: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark-Purple/cinnamon
-Gjs-Message: 15:08:19.925: JS LOG: [LookingGlass/info] loaded at Sun Jun 15 2025 15:08:19 GMT+0530 (India Standard Time)
-Gjs-Message: 15:08:19.925: JS LOG: Cinnamon started at Sun Jun 15 2025 15:08:19 GMT+0530 (India Standard Time)
-Gjs-Message: 15:08:19.934: JS LOG: [LookingGlass/info] ExtensionSystem started in 1 ms
-Gjs-Message: 15:08:19.934: JS LOG: [LookingGlass/info] DeskletManager started in 1 ms
-Gjs-Message: 15:08:19.934: JS LOG: [LookingGlass/info] SearchProviderManager started in 1 ms
-Gjs-Message: 15:08:19.969: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 12 ms
-Gjs-Message: 15:08:19.974: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 5 ms
-Gjs-Message: 15:08:19.976: JS LOG: [LookingGlass/info] Role locked: tray
-Gjs-Message: 15:08:19.978: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 4 ms
-Gjs-Message: 15:08:19.983: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 5 ms
-Gjs-Message: 15:08:19.995: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 12 ms
-Gjs-Message: 15:08:20.002: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 7 ms
+Gjs-Message: 18:59:34.194: Profiler is disabled. Not setting up signals.
+Gjs-Message: 18:59:34.313: JS LOG: About to start Cinnamon (X11 backend)
+Gjs-Message: 18:59:34.372: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 0 ms
+Gjs-Message: 18:59:34.373: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark-Purple/cinnamon/cinnamon.css
+Gjs-Message: 18:59:34.384: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark-Purple/cinnamon
+Gjs-Message: 18:59:34.461: JS LOG: [LookingGlass/info] loaded at Tue Jun 24 2025 18:59:34 GMT+0530 (India Standard Time)
+Gjs-Message: 18:59:34.461: JS LOG: Cinnamon started at Tue Jun 24 2025 18:59:34 GMT+0530 (India Standard Time)
+Gjs-Message: 18:59:34.469: JS LOG: [LookingGlass/info] ExtensionSystem started in 0 ms
+Gjs-Message: 18:59:34.469: JS LOG: [LookingGlass/info] DeskletManager started in 0 ms
+Gjs-Message: 18:59:34.469: JS LOG: [LookingGlass/info] SearchProviderManager started in 0 ms
+Gjs-Message: 18:59:34.502: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 11 ms
+Gjs-Message: 18:59:34.503: JS LOG: [LookingGlass/info] Role locked: tray
+Gjs-Message: 18:59:34.505: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 3 ms
+Gjs-Message: 18:59:34.511: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 6 ms
+Gjs-Message: 18:59:34.514: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 3 ms
+Gjs-Message: 18:59:34.526: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 12 ms
+Gjs-Message: 18:59:34.533: JS LOG: [LookingGlass/info] Role locked: notifications
 
-** (at-spi2-registryd:1975): WARNING **: 15:08:20.033: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+** (at-spi2-registryd:2053): WARNING **: 18:59:34.549: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
 
-** (at-spi2-registryd:1975): WARNING **: 15:08:20.033: Unable to register client with session manager
-Gjs-Message: 15:08:20.064: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 62 ms
-Gjs-Message: 15:08:20.088: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 24 ms
-Gjs-Message: 15:08:20.246: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 158 ms
-Gjs-Message: 15:08:20.295: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 49 ms
-Gjs-Message: 15:08:20.308: JS LOG: [LookingGlass/info] Role locked: panellauncher
-Gjs-Message: 15:08:20.308: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
-Gjs-Message: 15:08:20.311: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 16 ms
-Gjs-Message: 15:08:20.316: JS LOG: [LookingGlass/info] Role locked: notifications
-Gjs-Message: 15:08:20.324: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 13 ms
+** (at-spi2-registryd:2053): WARNING **: 18:59:34.549: Unable to register client with session manager
+Gjs-Message: 18:59:34.638: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 112 ms
+Gjs-Message: 18:59:34.664: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 25 ms
+Gjs-Message: 18:59:34.706: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 42 ms
+Gjs-Message: 18:59:34.717: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 11 ms
+Gjs-Message: 18:59:34.729: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 12 ms
+Gjs-Message: 18:59:34.742: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 13 ms
+Gjs-Message: 18:59:34.772: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Gjs-Message: 18:59:34.772: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
+Gjs-Message: 18:59:34.775: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 33 ms
+
+** (csd-power:1968): CRITICAL **: 18:59:34.789: abs_to_percentage: assertion 'max > min' failed
+Gjs-Message: 18:59:34.810: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 35 ms
+Gjs-Message: 18:59:34.846: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 36 ms
+Gjs-Message: 18:59:34.847: JS LOG: [LookingGlass/info] Hiding XAppStatusIcon (we have an applet): nm-applet
 
 ERROR: NVIDIA driver is not loaded
 
-
-** (csd-power:1888): CRITICAL **: 15:08:20.429: abs_to_percentage: assertion 'max > min' failed
-Gjs-Message: 15:08:20.443: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nm-applet (:1.54/org/x/StatusIcon/Icon)
-Gjs-Message: 15:08:20.484: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 160 ms
-Gjs-Message: 15:08:20.504: JS LOG: [LookingGlass/info] Hiding XAppStatusIcon (we have an applet): nm-applet (:1.54/org/x/StatusIcon/Icon)
-Gjs-Message: 15:08:20.511: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 27 ms
-Nemo-Message: 15:08:20.571: nemo-desktop: session is cinnamon, establishing proxy
-blueman-applet 15.08.20 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
-blueman-applet 15.08.20 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
-Gjs-Message: 15:08:20.656: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 145 ms
-Gjs-Message: 15:08:20.656: JS LOG: [LookingGlass/info] AppletManager started in 730 ms
-Gjs-Message: 15:08:20.661: JS LOG: [LookingGlass/info] Cinnamon took 895 ms to start
-Gjs-Message: 15:08:20.677: JS LOG: calendar@cinnamon.org: Calendar events supported.
-Gjs-Message: 15:08:20.715: JS LOG: Unknown network device type, is 32
-Gjs-Message: 15:08:20.847: JS LOG: [LookingGlass/info] GPU offload supported: false
-Gjs-Message: 15:08:20.847: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: :1.70 (:1.50/org/x/StatusIcon/Icon)
-Gjs-Message: 15:08:21.785: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nvidia-prime (:1.57/org/x/StatusIcon/Icon)
-Nemo-Share-Message: 15:08:21.788: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Nemo-Message: 18:59:34.915: nemo-desktop: session is cinnamon, establishing proxy
+blueman-applet 18.59.34 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 18.59.34 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+Gjs-Message: 18:59:34.983: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 137 ms
+Gjs-Message: 18:59:34.983: JS LOG: [LookingGlass/info] AppletManager started in 521 ms
+Gjs-Message: 18:59:34.986: JS LOG: [LookingGlass/info] Cinnamon took 672 ms to start
+Gjs-Message: 18:59:35.020: JS LOG: Unknown network device type, is 32
+Gjs-Message: 18:59:35.045: JS LOG: calendar@cinnamon.org: Calendar events supported.
+Gjs-Message: 18:59:35.130: JS LOG: [LookingGlass/info] GPU offload supported: false
+Gjs-Message: 18:59:35.149: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: blueman (:1.50/org/x/StatusIcon/Icon)
+Gjs-Message: 18:59:35.954: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nvidia-prime (:1.57/org/x/StatusIcon/Icon)
+Nemo-Share-Message: 18:59:36.046: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
 Please ask your system administrator to enable user sharing.
 
-Gjs-Message: 15:08:24.158: JS LOG: Enabling WindowAttentionHandler
+Gjs-Message: 18:59:39.150: JS LOG: Enabling WindowAttentionHandler
 /usr/lib/linuxmint/mintUpdate/mintUpdate.py:1394: DeprecationWarning: Gdk.threads_init is deprecated
   Gdk.threads_init()
 /usr/lib/linuxmint/mintUpdate/mintUpdate.py:1778: DeprecationWarning: Gdk.threads_enter is deprecated
   Gdk.threads_enter()
 /usr/lib/linuxmint/mintUpdate/mintUpdate.py:817: DeprecationWarning: Gdk.threads_leave is deprecated
   Gdk.threads_leave()
-Gjs-Message: 15:08:41.344: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.79/org/x/StatusIcon/Icon)
-Gjs-Message: 15:09:00.944: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.93/org/x/StatusIcon/Icon)
-Gjs-Message: 15:09:00.948: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.93/org/x/StatusIcon/Icon_1)
-/usr/lib/python3/dist-packages/apt/cache.py:562: Warning: W:An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://repo.protonvpn.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Failed to fetch https://repo.protonvpn.com/debian/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Some index files failed to download. They have been ignored, or old ones used instead.
-  res = self._cache.update(fetch_progress, slist, pulse_interval)
-/usr/lib/python3/dist-packages/apt/cache.py:562: Warning: W:An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://repo.protonvpn.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Failed to fetch https://repo.protonvpn.com/debian/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EDA3E22630349F1C, W:Some index files failed to download. They have been ignored, or old ones used instead.
-  res = self._cache.update(fetch_progress, slist, pulse_interval)
+Gjs-Message: 18:59:55.684: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.90/org/x/StatusIcon/Icon)
+Gjs-Message: 19:00:15.313: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.94/org/x/StatusIcon/Icon)
+Gjs-Message: 19:00:15.316: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.94/org/x/StatusIcon/Icon_1)
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4a00007
+Gjs-Message: 19:28:01.591: JS LOG: [LookingGlass/info] Adding XAppStatusIcon:  (:1.50/org/x/StatusIcon/Icon_1)

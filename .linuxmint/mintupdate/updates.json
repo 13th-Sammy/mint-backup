@@ -1,6 +1,57 @@
 {
-  "updates": {},
+  "updates": {
+    "cifs-utils": {
+      "type": "security",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "linux": {
+      "type": "kernel",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "pam": {
+      "type": "security",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "python3.12": {
+      "type": "security",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "libblockdev": {
+      "type": "security",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "xorg-server": {
+      "type": "security",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "udisks2": {
+      "type": "security",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "requests": {
+      "type": "security",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "xwayland": {
+      "type": "security",
+      "since": "2025.06.21",
+      "days": 4
+    },
+    "code": {
+      "type": "package",
+      "since": "2025.06.21",
+      "days": 4
+    }
+  },
   "version": 1,
-  "checked": "2025.06.15",
+  "checked": "2025.06.24",
   "notified": "2024.10.27"
 }

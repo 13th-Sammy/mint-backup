@@ -1,0 +1,39 @@
+2025-06-15 20:44:07.558 [info] Extension host with pid 10004 started
+2025-06-15 20:44:07.558 [info] Skipping acquiring lock for /home/sammy/.config/Code/User/workspaceStorage/dd918b45ff2846cfdfc8919a1dd5fea0.
+2025-06-15 20:44:07.831 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-15 20:44:07.857 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-15 20:44:07.874 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-06-15 20:44:08.474 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-15 20:44:08.493 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-15 20:44:08.549 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-15 20:44:08.815 [info] ExtensionService#_doActivateExtension Oracle.oracle-java, startup: true, activationEvent: 'workspaceContains:**/*.java'
+2025-06-15 20:44:08.955 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-15 20:44:08.963 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-15 20:44:09.029 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-15 20:44:09.139 [info] Eager extensions activated
+2025-06-15 20:44:09.253 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-15 20:44:09.256 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-15 22:54:26.533 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-15 22:54:26.568 [error] Error: Channel has been closed
+	at n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:2816)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:3161)
+	at T.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:291132)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514808)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-15 22:54:26.898 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:1167:27)
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1586:35)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1155:34)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/node/main.js:180:22)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1142:18)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:314:26)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at StreamMessageWriter.fireClose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:42:27)
+	at Socket.<anonymous> (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:74:42)
+	at Socket.emit (node:events:530:35)
+	at TCP.<anonymous> (node:net:351:12)
+2025-06-15 22:54:26.898 [info] Extension host with pid 10004 exiting with code 0

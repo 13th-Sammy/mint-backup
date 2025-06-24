@@ -1,111 +1,3 @@
-./a.out
-cd random-code/
-tree
-sudo apt install tree
-tree
-cd 
-tree
-cd Desktop/
-tree
-cd
-ls
-ls -a
-cd Desktop/
-ls
-ls -a
-cd temp/random-code/
-ls
-sudo apt install vscode
-sudo apt install vscodium
-ls
-git pull
-git pull 13thSammy/hello-world/main/helloworld.c
-git push 13thSammy/hello-world/main/helloworld.c
-git pull /13thSammy/hello-world/main/helloworld.c
-ls
-git init
-git pull /13thSammy/hello-world/main/helloworld.c
-git pull 13thSammy/hello-world/main/helloworld.c
-ls
-ls -a
-cd ..
-ls -a
-cd random-code/
-ls -a
-rm -rf .git/
-ls
-git pull . 13thSammy/hello-world/main/helloworld.c
-tree /$HOME/Desktop
-tree /$HOME/Desktop -a
-ls ~/ -a
-dpkg -i code_1.100.2-1747260578_amd64.deb 
-sudo dpkg -i code_1.100.2-1747260578_amd64.deb 
-ls -a
-exit
-git config --list
-ls -a
-git status
-git add README.md index.html 
-git status
-git commit -m "check"
-git status
-git push
-ls -a
-git branch
-ls
-cd ..
-mkdir newrepo
-cd newrepo
-tree ../..
-git init
-ls -a
-rm -rf .git/
-ls -la
-git init
-git branch
-cd ..
-ls
-rm -rf newrepo/
-mkdir newrepo
-cd newrepo/
-git init
-git branch
-ls -a
-git branch
-git remote set origin https://github.com/13th-Sammy/newrepo.git
-git remote add origin https://github.com/13th-Sammy/newrepo.git
-git remote -v
-git status
-git add README.md 
-git commit 
-git push -u origin main
-git pull
-ls
-git push -u origin main
-git pull origin main
-git push -u origin main
-ls -a
-git branch
-git checkout -b branch1
-git branch
-git checkout main
-git branch
-git checkout branch1
-git status 
-git checkout main
-git status 
-git checkout main
-git checkout branch1 
-git status
-git checkout branch1 
-git checkout main
-git status
-git push
-git remote -v
-git remote add origin https://github.com/13th-Sammy/hello-world.git
-git remote -v
-git remote add origin https://github.com/13th-Sammy/hello-world.git
-git remote set-url origin https://github.com/13th-Sammy/hello-world.git
 git remote -v
 git status
 git remote -v
@@ -1998,3 +1890,111 @@ gc
 clear
 touch josephus.cpp
 touch circularLLL.cpp
+gc
+gp
+git diff origin/main 
+rm LinkedLists/mergeSortDoubleLL
+mkdir Stacks-Queues
+cd Stacks-Queues/
+clear
+touch Stack-Array.cpp
+cd Stacks-Queues/
+rm Stack-Array
+gc
+touch Stack-LL.cpp
+rm Stack-Array
+gc
+touch Queue-Array.cpp
+cd Stacks-Queues/
+rm Stack-LL
+gc
+rm Stack-LL
+gc
+cd Stacks-Queues/
+rm Queue-Array
+gc
+touch Queue-LL.cpp
+cd Stacks-Queues/
+rm Queue-LL
+gc
+touch reverseStringStack.cpp
+cd Stacks-Queues/
+rm validParentheses
+gc
+rm validParentheses
+gc
+touch rcReverseStack.cpp
+cd Stacks-Queues/
+rm rcReverseStack
+gc
+rm rcReverseStack
+git restore rcReverseStack.cpp 
+rm rcReverseStack
+git checkout main
+git merge b1 --no-ff
+git diff b1
+gp
+git checkout b1
+git diff main && git diff origin/main 
+touch nextGreater.cpp
+sudo apt update && sudo apt upgrade
+sudo rm -rf /var/lib/apt/lists/*
+sudo apt clean
+sudo apt autoclean && sudo apt autoremove
+sudo apt update && sudo apt upgrade
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EDA3E22630349F1C
+sudo nano /etc/apt/sources.list.d/protonvpn-stable.list 
+sudo apt update && sudo apt upgrade
+sudo rm -rf /var/lib/apt/lists/*
+sudo apt clean
+sudo software-properties-gtk
+sudo rm -rf /var/lib/apt/lists/*
+sudo apt clean
+sudo apt update && sudo apt upgrade
+sudo apt-key list
+sudo software-properties-gtk
+sudo nano /etc/apt/sources.list.d/protonvpn-stable.list 
+sudo apt update && sudo apt upgrade
+dpkg -l | grep protonvpn
+sudo nano /etc/apt/sources.list.d/protonvpn-stable.list 
+sudo apt update && sudo apt upgrade
+sudo apt autoremove && sudo apt autoclean
+sudo apt update && sudo apt upgrade
+sudo nano /etc/apt/sources.list.d/protonvpn-stable.list 
+clear
+cd Stacks-Queues/
+apt policy code
+sudo software-properties-gtk
+sudo apt autoremove && sudo apt autoclean
+sudo apt update && sudo apt upgrade
+clear
+touch queueUsingStacks
+mv queueUsingStacks queueUsingStacks.cpp
+cd Stacks-Queues/
+rm quq
+rm queueUsingStacks
+gc
+touch stackUsingQueue.cpp
+cd Stacks-Queues/
+rm stackUsingQueue
+gc
+touch reverseQueue.cpp
+touch firstNonRptChar.cpp
+rm firstNonRptChar.cpp 
+cd Stacks-Queues/
+rm circularQueue
+gc
+touch firstNonRptChar.cpp
+cd Stacks-Queues/
+rm deQueue-LL
+gc
+git checkout main
+git merge b1 --no-ff
+git diff b1
+gp
+git diff b1 && git diff origin/main 
+git checkout b1
+cd Stacks-Queues/
+rm reverseQueue
+gc
+touch circularQueue.cpp

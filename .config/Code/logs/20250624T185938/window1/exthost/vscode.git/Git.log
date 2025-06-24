@@ -1,0 +1,33 @@
+2025-06-24 18:59:43.317 [info] [main] Log level: Info
+2025-06-24 18:59:43.317 [info] [main] Validating found git in: "git"
+2025-06-24 18:59:43.317 [info] [main] Using git "2.43.0" from "git"
+2025-06-24 18:59:43.317 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-24 18:59:43.317 [info] > git rev-parse --show-toplevel [90ms]
+2025-06-24 18:59:43.317 [info] > git rev-parse --git-dir --git-common-dir [26ms]
+2025-06-24 18:59:43.317 [info] [Model][openRepository] Opened repository (path): /home/sammy/Desktop/temp/hello-world
+2025-06-24 18:59:43.317 [info] [Model][openRepository] Opened repository (real path): /home/sammy/Desktop/temp/hello-world
+2025-06-24 18:59:43.317 [info] > git rev-parse --show-toplevel [60ms]
+2025-06-24 18:59:43.317 [info] > git config --get commit.template [66ms]
+2025-06-24 18:59:43.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [20ms]
+2025-06-24 18:59:43.363 [info] > git status -z -uall [13ms]
+2025-06-24 18:59:43.364 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-06-24 18:59:43.388 [info] > git rev-parse --show-toplevel [54ms]
+2025-06-24 18:59:43.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [30ms]
+2025-06-24 18:59:43.431 [info] > git config --get --local branch.b1.vscode-merge-base [5ms]
+2025-06-24 18:59:43.441 [info] > git rev-parse --show-toplevel [30ms]
+2025-06-24 18:59:43.442 [info] > git config --get commit.template [44ms]
+2025-06-24 18:59:43.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [21ms]
+2025-06-24 18:59:43.475 [info] > git rev-parse --show-toplevel [15ms]
+2025-06-24 18:59:43.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/b1 refs/remotes/b1 [17ms]
+2025-06-24 18:59:43.515 [info] > git status -z -uall [15ms]
+2025-06-24 18:59:43.526 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-06-24 18:59:43.529 [info] > git rev-parse --show-toplevel [40ms]
+2025-06-24 18:59:43.541 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-24 18:59:43.549 [info] > git rev-parse --show-toplevel [0ms]
+2025-06-24 18:59:43.559 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-24 18:59:43.561 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-24 18:59:43.589 [info] > git show --textconv :Stacks-Queues/nextGreater.cpp [20ms]
+2025-06-24 18:59:43.589 [info] > git ls-files --stage -- Stacks-Queues/nextGreater.cpp [8ms]
+2025-06-24 18:59:43.633 [info] > git cat-file -s 51357fb1577bfe119baa4e5456865ceccb222988 [32ms]
+2025-06-24 18:59:43.673 [info] > git blame --root --incremental 4375344a7a60b044eca1222518db6d13bd8e1afe -- Stacks-Queues/nextGreater.cpp [6ms]
+2025-06-24 18:59:44.060 [info] > git check-ignore -v -z --stdin [11ms]

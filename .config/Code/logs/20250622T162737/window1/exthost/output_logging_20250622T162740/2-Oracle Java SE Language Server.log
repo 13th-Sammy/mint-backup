@@ -1,0 +1,6 @@
+[2025-06-22T10:57:42.112Z] [INFO]: Launching Oracle Java SE Language Server with default system JDK and userdir /home/sammy/.config/Code/User/workspaceStorage/dd918b45ff2846cfdfc8919a1dd5fea0/Oracle.oracle-java/userdir
+[2025-06-22T10:57:42.127Z] [INFO]: Language Client: Starting
+[2025-06-22T10:57:42.128Z] [INFO]: LSP server launching: 3417
+[2025-06-22T10:57:42.128Z] [INFO]: LSP server user directory: /home/sammy/.config/Code/User/workspaceStorage/dd918b45ff2846cfdfc8919a1dd5fea0/Oracle.oracle-java/userdir
+[2025-06-22T10:57:46.694Z] [INFO]: Language Client: Ready
+[2025-06-22T10:57:47.258Z] [INFO]: Project runtime JDK unset, defaults to NBLS JDK
