@@ -1,0 +1,435 @@
+2025-06-27 14:51:24.457 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 14:51:24.470 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 14:51:24.470 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 14:51:24.873 [info] Started local extension host with pid 3250.
+2025-06-27 14:51:24.942 [info] ComputeTargetPlatform: linux-x64
+2025-06-27 14:51:25.378 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-27 14:51:25.379 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-27 14:51:25.379 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-27 14:51:26.391 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-27 14:51:27.688 [info] [perf] Render performance baseline is 32ms
+2025-06-27 14:57:42.551 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:02:54.824 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:03:03.804 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:06:39.403 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 15:07:02.915 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 15:07:55.703 [error] Cannot read properties of undefined (reading 'range'): TypeError: Cannot read properties of undefined (reading 'range')
+	at asSymbolInformation (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:591:33)
+	at convertBatch (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:193:25)
+	at Object.map (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:202:17)
+	at Object.asSymbolInformations (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:558:22)
+	at _provideDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/documentSymbol.js:86:76)
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:453:9)
+	at async i2.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:125948)
+2025-06-27 15:07:55.703 [error] Cannot read properties of undefined (reading 'range'): TypeError: Cannot read properties of undefined (reading 'range')
+	at asSymbolInformation (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:591:33)
+	at convertBatch (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:193:25)
+	at Object.map (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/utils/async.js:202:17)
+	at Object.asSymbolInformations (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/protocolConverter.js:558:22)
+	at _provideDocumentSymbols (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/documentSymbol.js:86:76)
+	at async i2.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:125948)
+2025-06-27 15:09:57.406 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:11:14.832 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:11:19.630 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:11:23.844 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:16:32.341 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 15:19:25.353 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:19:27.158 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:25:11.585 [error] [Extension Host] (node:3250) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-06-27 15:33:38.882 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 15:33:44.161 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 15:48:26.452 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:48:29.865 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 15:49:30.960 [warning] Semantic token with invalid length detected at lineNumber 27, column 16
+2025-06-27 16:02:02.493 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 16:12:11.050 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:12:18.772 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:43:45.789 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:43:51.104 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:45:48.236 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:47:17.594 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 16:48:26.308 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:48:29.232 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:48:33.354 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:51:17.691 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 16:51:21.964 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:04:00.203 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:12:27.593 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:12:31.734 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:26:40.807 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:27:16.886 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:27:20.297 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:29:03.649 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:29:07.320 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:33:21.834 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:33:25.569 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:39:10.439 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 17:47:23.229 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 17:53:10.099 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 17:53:13.755 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 18:18:31.847 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 18:18:38.095 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 19:54:21.134 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 19:54:25.916 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:05:16.153 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:05:19.542 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:21:14.577 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:21:20.980 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:26:48.109 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:26:53.583 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:31:37.638 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:31:43.886 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:40:35.583 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 20:40:41.188 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 21:16:14.523 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 21:23:01.193 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 21:25:01.286 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 21:28:39.783 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 21:33:52.700 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 21:36:07.614 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 21:38:02.373 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 21:39:28.852 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 21:53:23.087 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 22:05:27.495 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 22:05:33.501 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 22:07:52.004 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 22:07:57.071 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 22:19:53.289 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 22:19:57.682 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 22:34:54.491 [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Vf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Vf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at G (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1244616)
+	at G (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1244791)
+	at c (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1283132)
+	at t.map (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1283218)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1252672)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:945882
+	at Generator.next (<anonymous>)
+	at s (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:944938)
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:453:9)
+2025-06-27 22:34:54.492 [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Vf.validate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22634)
+	at new Vf (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:22842)
+	at G (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1244616)
+	at G (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1244791)
+	at c (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1283132)
+	at t.map (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1283218)
+	at Object.asDocumentSymbols (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1252672)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:945882
+	at Generator.next (<anonymous>)
+	at s (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:944938)
+2025-06-27 22:48:25.628 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:01:28.797 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:10:32.032 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:11:42.777 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:11:56.348 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:00.591 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:01.792 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:05.726 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:06.819 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:11.769 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:12.933 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:16.813 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:17.885 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:23.398 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:12:29.071 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:19:06.781 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 23:21:50.597 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 23:21:55.094 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 23:30:04.422 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:30:05.765 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:31:05.474 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:31:48.926 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:32:01.585 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:32:03.001 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:33:21.226 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:34:46.916 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:34:52.122 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:35:15.345 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:35:16.620 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:35:21.273 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:35:49.186 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:35:55.308 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:52:12.102 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:52:52.334 [error] Internal error.: Error: Internal error.
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 23:56:09.791 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 23:56:14.015 [error] An unknown error occurred. Please consult the log for more details.

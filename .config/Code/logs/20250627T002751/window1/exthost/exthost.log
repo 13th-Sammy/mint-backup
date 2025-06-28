@@ -1,0 +1,114 @@
+2025-06-27 00:27:53.770 [info] Extension host with pid 59813 started
+2025-06-27 00:27:53.770 [info] Skipping acquiring lock for /home/sammy/.config/Code/User/workspaceStorage/4ee27cccb2d6beba6238c3559682b1b6.
+2025-06-27 00:27:54.008 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-27 00:27:54.031 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-27 00:27:54.048 [info] ExtensionService#_doActivateExtension Oracle.oracle-java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:27:54.182 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:27:54.322 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:27:54.382 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:27:54.429 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:27:54.509 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:27:54.961 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:27:54.972 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:27:55.033 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:27:55.085 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-27 00:27:55.344 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-27 00:27:55.407 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-27 00:27:55.449 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-27 00:27:55.468 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new DM (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:112213)
+	at $5.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116823)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:114317)
+	at Ob.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:70320)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:19581)
+	at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:707:13 
+2025-06-27 00:27:55.468 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new DM (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:112213)
+	at $5.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116823)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:114317)
+	at Ob.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:70320)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:19581)
+	at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:707:13 
+2025-06-27 00:27:55.484 [info] Eager extensions activated
+2025-06-27 00:27:55.484 [error] Activating extension vscode.debug-auto-launch failed due to an error:
+2025-06-27 00:27:55.484 [error] Canceled: Canceled
+	at new DM (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:112213)
+	at $5.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116823)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:114317)
+	at yY.fb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:12161)
+	at Object.actualActivateExtension (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:9402)
+	at Wb.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13395)
+	at Wb.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13356)
+	at Wb.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12812)
+	at new Wb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12739)
+	at zb.k (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12301)
+	at zb.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12256)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11227
+	at Array.map (<anonymous>)
+	at zb.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11215)
+	at zb.activateById (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11127)
+	at yY.bb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:10628)
+	at yY.lb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:15468)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:16112
+2025-06-27 00:27:55.484 [error] Activating extension vscode.merge-conflict failed due to an error:
+2025-06-27 00:27:55.484 [error] Canceled: Canceled
+	at new DM (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:112213)
+	at $5.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116823)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:114317)
+	at yY.fb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:12161)
+	at Object.actualActivateExtension (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:9402)
+	at Wb.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13395)
+	at Wb.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13356)
+	at Wb.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12812)
+	at new Wb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12739)
+	at zb.k (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12301)
+	at zb.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12256)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11227
+	at Array.map (<anonymous>)
+	at zb.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11215)
+	at zb.activateById (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11127)
+	at yY.bb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:10628)
+	at yY.lb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:15468)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:16112
+2025-06-27 00:27:55.681 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-27 00:27:55.829 [error] Oracle Java SE Language Server not enabled
+2025-06-27 00:27:56.486 [error] Canceled (FileSystemError): Canceled
+	at ds.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:18860)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:16395)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:2284
+	at async Ay.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:1836)
+2025-06-27 00:27:56.486 [error] Canceled (FileSystemError): Canceled
+	at ds.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:18860)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:16395)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:2284
+	at async Ay.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:1836)
+2025-06-27 00:27:56.486 [error] Canceled (FileSystemError): Canceled
+	at ds.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:18860)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:16395)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:2284
+	at async Ay.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:1836)
+2025-06-27 00:27:56.803 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new DM (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:112213)
+	at $5.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116823)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:114317)
+	at Ob.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:70320)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:19581)
+	at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:707:13 
+2025-06-27 00:27:56.830 [error] Error: Cannot kill process
+	at /home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/out/lsp/nbProcessManager.js:53:28
+	at new Promise (<anonymous>)
+	at NbProcessManager.killProcess (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/out/lsp/nbProcessManager.js:46:20)
+	at processOnCloseHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/out/lsp/nbcode.js:103:26)
+	at ChildProcess.<anonymous> (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/out/lsp/nbcode.js:58:24)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:351:12)
+2025-06-27 00:28:00.468 [info] Extension host with pid 59813 exiting with code 0

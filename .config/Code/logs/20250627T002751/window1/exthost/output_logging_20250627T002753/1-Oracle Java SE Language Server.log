@@ -1,0 +1,8 @@
+[2025-06-26T18:57:54.686Z] [INFO]: Launching Oracle Java SE Language Server with default system JDK and userdir /home/sammy/.config/Code/User/workspaceStorage/4ee27cccb2d6beba6238c3559682b1b6/Oracle.oracle-java/userdir
+[2025-06-26T18:57:54.705Z] [INFO]: Language Client: Starting
+[2025-06-26T18:57:54.706Z] [INFO]: LSP server launching: 59917
+[2025-06-26T18:57:54.706Z] [INFO]: LSP server user directory: /home/sammy/.config/Code/User/workspaceStorage/4ee27cccb2d6beba6238c3559682b1b6/Oracle.oracle-java/userdir
+[2025-06-26T18:57:55.829Z] [ERROR]: Cannot find org.netbeans.modules.java.lsp.server in the log!
+[2025-06-26T18:57:55.829Z] [INFO]: Please refer to troubleshooting section for more info: https://github.com/oracle/javavscode/blob/main/README.md#troubleshooting
+[2025-06-26T18:57:55.829Z] [INFO]: Request to kill LSP server.
+[2025-06-26T18:57:55.829Z] [INFO]: Killing LSP server 59917

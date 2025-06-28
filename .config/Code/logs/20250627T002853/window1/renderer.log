@@ -1,0 +1,34 @@
+2025-06-27 00:28:53.899 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:28:53.912 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:28:53.912 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:28:54.327 [info] Started local extension host with pid 60477.
+2025-06-27 00:28:54.400 [info] ComputeTargetPlatform: linux-x64
+2025-06-27 00:28:54.870 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:28:54.870 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:28:54.871 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:28:56.044 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-27 00:28:57.143 [info] [perf] Render performance baseline is 36ms
+2025-06-27 00:29:21.609 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:29:21.609 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:29:21.609 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:29:21.826 [info] Started local extension host with pid 61231.
+2025-06-27 00:29:21.878 [info] ComputeTargetPlatform: linux-x64
+2025-06-27 00:29:22.452 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:29:22.453 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:29:22.453 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:29:23.053 [error] [Extension Host] (node:61231) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-06-27 00:29:23.481 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-27 00:29:24.639 [info] [perf] Render performance baseline is 33ms
+2025-06-27 00:31:57.228 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:31:57.229 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:31:57.229 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-27 00:31:57.521 [info] Started local extension host with pid 62323.
+2025-06-27 00:31:57.556 [info] ComputeTargetPlatform: linux-x64
+2025-06-27 00:31:58.078 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:31:58.078 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:31:58.078 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-06-27 00:31:58.855 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-27 00:32:00.278 [info] [perf] Render performance baseline is 32ms
+2025-06-27 00:33:25.307 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-27 00:33:28.329 [error] An unknown error occurred. Please consult the log for more details.

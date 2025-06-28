@@ -1,0 +1,354 @@
+Jun 26, 2025 9:09:37 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+Jun 26, 2025 9:09:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jun 26, 2025 9:09:54 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFO: Starting com.microsoft.java.debug.plugin
+Jun 26, 2025 9:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1030
+Jun 26, 2025 9:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1031
+Jun 26, 2025 9:16:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2488
+Jun 26, 2025 9:18:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2679
+[Error - 21:20:36] 26-Jun-2025, 9:20:36 pm Unable to load IDecompiler class for jarFileContentProvider
+Jun 26, 2025 9:23:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4172
+Jun 26, 2025 9:25:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4751
+Jun 26, 2025 9:26:37 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 9:26:49 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 9:27:16 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 9:27:30 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 9:27:39 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 9:27:51 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 9:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7000
+Jun 26, 2025 10:00:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7597
+Jun 26, 2025 10:03:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8632
+Jun 26, 2025 10:06:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10268
+Jun 26, 2025 10:32:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15870
+Jun 26, 2025 10:32:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 22:32:37] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 26, 2025 10:32:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16086
+Jun 26, 2025 10:34:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16347
+Jun 26, 2025 10:34:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16348
+Jun 26, 2025 10:34:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16351
+Jun 26, 2025 10:38:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16773
+Jun 26, 2025 10:40:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17354
+Jun 26, 2025 10:44:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17857
+Jun 26, 2025 10:46:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19139
+[Error - 22:50:10] 26-Jun-2025, 10:50:10 pm Unable to load IDecompiler class for jarFileContentProvider
+Jun 26, 2025 10:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 22:50:12] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 26, 2025 10:51:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20402
+Jun 26, 2025 10:54:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21117
+Jun 26, 2025 10:54:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21155
+Jun 26, 2025 10:54:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21158
+Jun 26, 2025 10:54:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21160
+Jun 26, 2025 10:54:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21154
+Jun 26, 2025 11:04:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23131
+Jun 26, 2025 11:06:01 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 11:06:17 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 11:06:39 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 11:07:01 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 11:08:17 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 11:08:32 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 11:09:07 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 11:09:29 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 11:11:06 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 11:12:47 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 11:19:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 23:19:18] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IMethod.getCompilationUnit()" because "iMethod" is null
+	at org.eclipse.jdt.internal.corext.refactoring.code.makestatic.InitialConditionsChecker.checkSourceAvailable(InitialConditionsChecker.java:181)
+	at org.eclipse.jdt.internal.corext.refactoring.code.MakeStaticRefactoring.checkInitialConditions(MakeStaticRefactoring.java:127)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getMakeMethodStaticRefactoringProposal(RefactorProcessor.java:1189)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:228)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:775)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+Jun 26, 2025 11:21:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24342
+Jun 26, 2025 11:22:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24870
+Jun 26, 2025 11:22:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25081
+Jun 26, 2025 11:26:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27092
+Jun 26, 2025 11:32:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28741
+Jun 26, 2025 11:32:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28801
+Jun 26, 2025 11:36:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29728
+Jun 26, 2025 11:36:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29749
+Jun 26, 2025 11:36:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29853
+Jun 26, 2025 11:37:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30420
+Jun 26, 2025 11:43:29 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 11:44:02 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 11:44:20 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 11:46:34 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 11:52:46 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 26, 2025 11:52:49 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 26, 2025 11:56:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34748
+Jun 26, 2025 11:58:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35666
+Jun 27, 2025 12:03:57 AM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 27, 2025 12:04:04 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 27, 2025 12:04:09 AM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 27, 2025 12:05:12 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 27, 2025 12:05:28 AM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 27, 2025 12:06:15 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 27, 2025 12:06:17 AM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Jun 27, 2025 12:07:41 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Jun 27, 2025 12:26:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy5/jdk.proxy5.$Proxy19.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:269)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 11 more
+
+Jun 27, 2025 12:26:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy5/jdk.proxy5.$Proxy19.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 11 more
+
+Jun 27, 2025 12:26:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy5/jdk.proxy5.$Proxy19.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.done(ProgressReporterManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:74)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 8 more
+

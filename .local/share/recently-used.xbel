@@ -3,12 +3,60 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/sammy/Desktop/temp" added="2025-05-20T13:35:54.730990Z" modified="2025-06-21T14:39:43.273565Z" visited="2025-05-20T13:35:54.730991Z">
+  <bookmark href="file:///home/sammy/Desktop/temp" added="2025-05-20T13:35:54.730990Z" modified="2025-06-26T18:57:21.276240Z" visited="2025-05-20T13:35:54.730991Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="nemo-desktop" exec="&apos;nemo %U&apos;" modified="2025-06-21T14:39:43.273563Z" count="30"/>
+          <bookmark:application name="nemo-desktop" exec="&apos;nemo %U&apos;" modified="2025-06-26T18:57:21.276234Z" count="32"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sammy/Desktop/temp/library-java" added="2025-06-26T15:24:11.312978Z" modified="2025-06-26T19:01:56.869292Z" visited="2025-06-26T15:24:11.312979Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-06-26T19:01:56.869289Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sammy/Desktop/temp/pong-game/README.md" added="2025-06-26T15:28:14.495755Z" modified="2025-06-26T15:28:24.788897Z" visited="2025-06-26T15:28:14.495757Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-06-26T15:28:14.495760Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-26T15:28:24.788896Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sammy/Desktop/temp/hello-world" added="2025-06-26T18:59:21.227101Z" modified="2025-06-26T18:59:21.227106Z" visited="2025-06-26T18:59:21.227102Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-06-26T18:59:21.227103Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sammy/Desktop/temp/pong-game/GamePanel.java" added="2025-06-27T15:29:17.378709Z" modified="2025-06-27T15:29:17.956387Z" visited="2025-06-27T15:29:17.378710Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-06-27T15:29:17.378712Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-27T15:29:17.956385Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

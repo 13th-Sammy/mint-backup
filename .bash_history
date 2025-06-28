@@ -1,134 +1,3 @@
-git remote -v
-git status
-git remote -v
-git push origin main
-git fetch
-git push origin main
-git pull origin main
-cd ..
-cd hello-world/
-ls
-git status
-git branch
-git status
-git add && git commit
-git add README.md && git commit
-git status
-git push
-git remote -v
-git branch
-git branch branch1
-git checkout branch1
-ls
-git add README.md 
-git commit -m lol
-git push
-git push -u origin branch1
-git status
-git push -u origin branch1
-git remote -v
-git remote set-url https://github.com/13th-Sammy/newrepo.git
-git remote -v
-git remote add https://github.com/13th-Sammy/newrepo.git
-git remote -set-url https://github.com/13th-Sammy/newrepo.git
-git remote --set-url https://github.com/13th-Sammy/newrepo.git
-git remote set-url https://github.com/13th-Sammy/newrepo.git
-git remote -v
-git branch
-git checkout -b b1
-git add README.md 
-git commit -m b1
-git branch
-git status
-git push
-git push origin b1
-git remote -v
-git merge
-git merge b1 main
-git branch
-cd
-ls
-cd Desktop/temp/
-ls
-rm -rf hello-world/ newrepo/
-cd Desktop/temp/
-git clone https://github.com/13th-Sammy/hello-world.git
-ls
-cd hello-world/
-cd
-cd Desktop/temp/
-ls
-ls hello-world/
-ls newrepo/
-ls -la
-git clone
-git clone https://github.com/13th-Sammy/hello-world.git
-ls -la
-ls -la hello-world/
-git remote -v
-git commit -m "hw2"
-git branch main
-git checkout main
-git branch branch1
-git checkout branch1
-git merge main
-git checkout main
-git merge branch1
-git branch
-git push
-git push origin branch1
-git branch -d branch1
-git branch
-exit
-ls -la
-ls -a
-rm -rf hw .vscode/
-ls
-ls -a
-rm -rf .vscode/
-ls -a
-rm -rf hw .vscode/
-ls -a
-git branch
-git checkout -b branch1
-ls
-git branch
-git status
-git checkout main 
-git status
-git checkout branch1 
-git add README.md 
-git push origin branch1
-git commit README.md 
-git push origin branch1
-git merge
-git branch main
-git checkout main
-git checkout branch1 
-git checkout main
-git checkout branch1 
-git checkout main
-clear
-git status
-git checkout branch1
-git checkout main
-git branch
-git diff branch1
-git merge branch1
-git status
-git push
-git checkout -d branch1
-git branch
-git checkout -d branch1
-git branch
-git checkout main
-git branch
-git checkout -d branch1 
-git branch
-git checkout main
-git branch -d branch1
-git branch 
-git status
 git push
 git branch 
 git checkout -b branch1
@@ -1998,3 +1867,134 @@ cd Stacks-Queues/
 rm reverseQueue
 gc
 touch circularQueue.cpp
+sudo apt update && sudo apt upgrade
+gc
+gp
+mkdir Heaps
+rm -rf Heaps/
+cd ..
+mkdir Heaps
+cd Heaps/
+touch MinHeap.cpp
+rm Heaps/MinHeap
+gc
+mkdir Misc
+mv binarySearch.cpp bsCount.cpp calc.cpp hash-freq.cpp JavaCalc.java JavaRandom.java mergeSort.cpp patterns.cpp quickSort.cpp shallow-deep.cpp sorting.cpp student.cpp vehicle.cpp Misc/
+cat helloworld.c 
+rm helloworld.c 
+gc
+rm Misc/sorting
+gc
+cd Heaps/
+touch HeapSort.cpp
+cd Heaps/
+rm kFrequent
+gc
+touch kthLargest.cpp
+cd Heaps/
+rm kthLargest
+gc
+git checkout main
+git merge b1 --no-ff
+gp
+git diff b1 && git diff origin/main 
+git checkout b1
+clear
+sudo apt update && sudo apt upgrade
+pkill -h
+sudo apt update && sudo apt upgrade
+sudo apt autoremove
+sudo apt autoclean
+sudo apt update && sudo apt upgrade
+shutdown now
+cd Desktop/temp/
+ls
+git clone https://github.com/13th-Sammy/library-java.git
+cd library-java/
+ls
+ls -a
+git remote -v
+gc
+gp
+gc
+touch Library.java
+gc
+gp
+gc
+touch Book.java
+clear
+gc
+gp
+gc
+gp
+gc
+gp
+cd Desktop/temp/hello-world/
+git rm LibraryJava/
+git rm -rf LibraryJava/
+gc
+gp
+git status
+git diff main
+git checkout main
+git merge b1 --no-ff
+gp
+git diff b1 && git diff origin main
+git diff b1 && git diff origin/main
+git checkout b1
+git checkout -b b1
+clear
+git branch -d b1
+git checkout main
+git branch -d b1
+git branch
+git remote -v
+git config --list
+cd ../hello-world/
+git config --list
+cd ../library-java/
+clear
+sudo apt update && sudo apt upgrade
+sudo apt autoremove
+sudo apt autoclean
+touch Main.java
+git restore .
+git status
+git restore Library.java 
+gc
+gp
+touch User.java
+gc
+gp
+gc
+gp
+git restore Library.java 
+gc
+gp
+gc
+gp
+gc
+gp
+gc
+gp
+gc
+gp
+gc
+gp
+gc
+gp
+clear
+gc
+gp
+gc
+gp
+gc
+gp
+touch ViewBooks.java
+gc
+gc'
+gc
+gp
+gc
+gp
+sudo apt update && sudo apt upgrade

@@ -1,0 +1,23 @@
+2025-06-27 14:51:23.351 [info] update#setState idle
+2025-06-27 14:51:53.337 [info] update#setState checking for updates
+2025-06-27 14:51:53.441 [info] update#setState idle
+2025-06-27 15:51:53.341 [info] update#setState checking for updates
+2025-06-27 15:51:53.850 [info] update#setState idle
+2025-06-27 16:51:53.343 [info] update#setState checking for updates
+2025-06-27 16:51:53.731 [info] update#setState idle
+2025-06-27 17:51:53.346 [info] update#setState checking for updates
+2025-06-27 17:51:54.372 [info] update#setState idle
+2025-06-27 18:51:53.348 [info] update#setState checking for updates
+2025-06-27 18:51:54.408 [info] update#setState idle
+2025-06-27 19:51:53.350 [info] update#setState checking for updates
+2025-06-27 19:51:54.436 [info] update#setState idle
+2025-06-27 20:51:53.352 [info] update#setState checking for updates
+2025-06-27 20:51:54.255 [info] update#setState idle
+2025-06-27 21:51:53.355 [info] update#setState checking for updates
+2025-06-27 21:51:54.012 [info] update#setState idle
+2025-06-27 22:51:53.356 [info] update#setState checking for updates
+2025-06-27 22:51:54.029 [info] update#setState idle
+2025-06-27 23:51:53.360 [info] update#setState checking for updates
+2025-06-27 23:51:54.289 [info] update#setState idle
+2025-06-27 23:59:51.460 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 3270]: crashed with code 15 and reason 'killed'
+2025-06-27 23:59:51.776 [info] Extension host with pid 3250 exited with code: 0, signal: unknown.

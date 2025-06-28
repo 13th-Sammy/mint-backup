@@ -1,0 +1,162 @@
+2025-06-27 00:28:54.871 [info] Extension host with pid 60477 started
+2025-06-27 00:28:54.871 [info] Skipping acquiring lock for /home/sammy/.config/Code/User/workspaceStorage/4ee27cccb2d6beba6238c3559682b1b6.
+2025-06-27 00:28:55.171 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-27 00:28:55.195 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-27 00:28:55.209 [info] ExtensionService#_doActivateExtension Oracle.oracle-java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:28:55.297 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:28:55.431 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:28:55.485 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:28:55.537 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:28:55.608 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:28:55.976 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:28:55.986 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:28:56.055 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:28:56.272 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-27 00:28:56.387 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-27 00:28:56.448 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-27 00:28:56.714 [info] Eager extensions activated
+2025-06-27 00:28:56.763 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 00:28:56.767 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 00:28:57.228 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-27 00:28:57.455 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:28:57.748 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-27 00:29:02.903 [error] [redhat.java] provider FAILED
+2025-06-27 00:29:02.905 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 00:29:02.907 [error] [redhat.java] provider FAILED
+2025-06-27 00:29:02.907 [error] Error: The request (id: 2, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 00:29:21.281 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-27 00:29:21.378 [error] Error: Channel has been closed
+	at n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:2816)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:3161)
+	at T.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:291132)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514808)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-27 00:29:21.730 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:1167:27)
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1586:35)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1155:34)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/node/main.js:180:22)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1142:18)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:314:26)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at StreamMessageWriter.fireClose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:42:27)
+	at Socket.<anonymous> (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:74:42)
+	at Socket.emit (node:events:530:35)
+	at TCP.<anonymous> (node:net:351:12)
+2025-06-27 00:29:21.730 [info] Extension host with pid 60477 exiting with code 0
+2025-06-27 00:29:22.464 [info] Extension host with pid 61231 started
+2025-06-27 00:29:22.464 [info] Skipping acquiring lock for /home/sammy/.config/Code/User/workspaceStorage/dd918b45ff2846cfdfc8919a1dd5fea0.
+2025-06-27 00:29:22.675 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-27 00:29:22.696 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-27 00:29:22.716 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-06-27 00:29:23.359 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-27 00:29:23.480 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-27 00:29:23.524 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-27 00:29:23.525 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:29:23.533 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:29:23.588 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:29:23.638 [info] ExtensionService#_doActivateExtension Oracle.oracle-java, startup: true, activationEvent: 'workspaceContains:**/*.java'
+2025-06-27 00:29:23.995 [info] Eager extensions activated
+2025-06-27 00:29:24.011 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 00:29:24.015 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 00:31:56.913 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-27 00:31:56.944 [error] Error: Channel has been closed
+	at n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:2816)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:3161)
+	at T.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:291132)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514808)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-27 00:31:57.276 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:1167:27)
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1586:35)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1155:34)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/node/main.js:180:22)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1142:18)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:314:26)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at StreamMessageWriter.fireClose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:42:27)
+	at Socket.<anonymous> (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:74:42)
+	at Socket.emit (node:events:530:35)
+	at TCP.<anonymous> (node:net:351:12)
+2025-06-27 00:31:57.276 [info] Extension host with pid 61231 exiting with code 0
+2025-06-27 00:31:58.090 [info] Extension host with pid 62323 started
+2025-06-27 00:31:58.090 [info] Skipping acquiring lock for /home/sammy/.config/Code/User/workspaceStorage/4ee27cccb2d6beba6238c3559682b1b6.
+2025-06-27 00:31:58.268 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-27 00:31:58.293 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-27 00:31:58.310 [info] ExtensionService#_doActivateExtension Oracle.oracle-java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:31:58.387 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:31:58.533 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:31:58.578 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:31:58.639 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:31:58.729 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:31:59.099 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:31:59.108 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:31:59.156 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 00:31:59.298 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-27 00:31:59.374 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-27 00:31:59.414 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-27 00:31:59.727 [info] Eager extensions activated
+2025-06-27 00:31:59.749 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 00:31:59.753 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 00:32:00.067 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-27 00:32:00.316 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-06-27 00:32:00.632 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-06-27 00:32:07.380 [error] [redhat.java] provider FAILED
+2025-06-27 00:32:07.389 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 00:32:07.389 [error] [redhat.java] provider FAILED
+2025-06-27 00:32:07.389 [error] Error: The request (id: 2, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070003
+	at re (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1070297)
+	at /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-27 00:33:14.261 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-06-27 00:33:25.305 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/library-java/Library.java.git'
+2025-06-27 00:33:28.327 [error] Error: ENOENT: no such file or directory, lstat '/home/sammy/Desktop/temp/library-java/Library.java.git'
+2025-06-27 00:39:16.510 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-27 00:39:16.580 [error] Error: Channel has been closed
+	at n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:2816)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:3161)
+	at T.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:291132)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514808)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-27 00:39:16.884 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:1167:27)
+	at Object.dispose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1586:35)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1155:34)
+	at NbLanguageClient.handleConnectionClosed (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/node/main.js:180:22)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-languageclient/lib/common/client.js:1142:18)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at closeHandler (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/connection.js:314:26)
+	at CallbackList.invoke (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at StreamMessageWriter.fireClose (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:42:27)
+	at Socket.<anonymous> (/home/sammy/.vscode/extensions/oracle.oracle-java-24.0.0/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:74:42)
+	at Socket.emit (node:events:530:35)
+	at TCP.<anonymous> (node:net:351:12)
+2025-06-27 00:39:16.884 [info] Extension host with pid 62323 exiting with code 0

@@ -1,0 +1,16 @@
+2025-06-26 20:53:43.826 [info] ComputeTargetPlatform: linux-x64
+2025-06-26 20:53:45.768 [info] ComputeTargetPlatform: linux-x64
+2025-06-26 20:53:47.623 [info] Getting Manifest... ms-vscode.cpptools
+2025-06-26 20:53:47.625 [info] Getting Manifest... redhat.java
+2025-06-26 20:53:47.657 [info] Installing extension: redhat.java {"productVersion":{"version":"1.101.2","date":"2025-06-24T20:27:15.391Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sammy/.vscode/extensions/extensions.json","path":"/home/sammy/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-06-26 20:53:47.659 [info] Installing extension: ms-vscode.cpptools {"productVersion":{"version":"1.101.2","date":"2025-06-24T20:27:15.391Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sammy/.vscode/extensions/extensions.json","path":"/home/sammy/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-06-26 20:54:07.371 [info] Extension signature verification result for redhat.java: Success. Internal Code: 0. Executed: true. Duration: 1322ms.
+2025-06-26 20:54:08.507 [info] Extracted extension to file:///home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64: redhat.java
+2025-06-26 20:54:08.536 [info] Renamed to /home/sammy/.vscode/extensions/redhat.java-1.43.0-linux-x64
+2025-06-26 20:54:08.551 [info] Marked extension as removed redhat.java-1.42.0-linux-x64
+2025-06-26 20:54:08.562 [info] Extension installed successfully: redhat.java vscode-userdata:/home/sammy/.vscode/extensions/extensions.json
+2025-06-26 20:54:08.924 [info] Extension signature verification result for ms-vscode.cpptools: Success. Internal Code: 0. Executed: true. Duration: 1120ms.
+2025-06-26 20:54:10.391 [info] Extracted extension to file:///home/sammy/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64: ms-vscode.cpptools
+2025-06-26 20:54:10.416 [info] Renamed to /home/sammy/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64
+2025-06-26 20:54:10.446 [info] Marked extension as removed ms-vscode.cpptools-1.25.3-linux-x64
+2025-06-26 20:54:10.451 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/sammy/.vscode/extensions/extensions.json
